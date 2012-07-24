@@ -71,9 +71,8 @@ body.admin-bar .navbar-fixed-top{
 }
 
 .navbar-inner{
-	background: url(/images/header.png) repeat !important;
-	max-height:65px !important;
-	min-height:none !important;
+	background: url(images/header.png) repeat !important;
+	min-height: 65px !important;
 }
 
 .nav-container{
