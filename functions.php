@@ -36,6 +36,8 @@ if ( ! isset( $content_width ) ) $content_width = 580;
 
 // Thumbnail sizes
 add_image_size( 'wpbs-featured', 638, 300, true );
+add_image_size( 'wpbs-featured-home', 970, 311, true);
+add_image_size( 'wpbs-featured-carousel', 970, 400, true);
 add_image_size( 'bones-thumb-600', 600, 150, false );
 add_image_size( 'bones-thumb-300', 300, 100, true );
 /* 
@@ -153,14 +155,34 @@ function bones_comments($comment, $args, $depth) {
                     
                     <time datetime="<?php echo comment_time('Y-m-j'); ?>"><a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>"><?php comment_time('F jS, Y'); ?> </a></time>
                     
-                    <!-- removing reply link on each comment since we're not nesting them -->
-					<?php //comment_reply_link(array_merge( $args, array('depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
+					<?php comment_reply_link(array_merge( $args, array('depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
                 </div>
 			</div>
 		</article>
     <!-- </li> is added by wordpress automatically -->
 <?php
 } // don't remove this bracket!
+
+// Display trackbacks/pings callback function
+function list_pings($comment, $args, $depth) {
+       $GLOBALS['comment'] = $comment;
+?>
+        <li id="comment-<?php comment_ID(); ?>"><i class="icon icon-share-alt"></i>&nbsp;<?php comment_author_link(); ?>
+<?php 
+
+}
+
+// Only display comments in comment count (which isn't currently displayed in wp-bootstrap, but i'm putting this in now so i don't forget to later)
+add_filter('get_comments_number', 'comment_count', 0);
+function comment_count( $count ) {
+	if ( ! is_admin() ) {
+		global $id;
+	    $comments_by_type = &separate_comments(get_comments('status=approve&post_id=' . $id));
+	    return count($comments_by_type['comment']);
+	} else {
+	    return $count;
+	}
+}
 
 /************* SEARCH FORM LAYOUT *****************/
 
@@ -378,7 +400,7 @@ class description_walker extends Walker_Nav_Menu
            	$attributes .= ! empty( $item->url )        ? ' href="'   . esc_attr( $item->url        ) .'"' : '';
            	// if the item has children add these two attributes to the anchor tag
            	if ( $args->has_children ) {
-				$attributes .= 'class="dropdown-toggle" data-toggle="dropdown"';
+				$attributes .= ' class="dropdown-toggle" data-toggle="dropdown"';
 			}
 
             $item_output = $args->before;
@@ -414,10 +436,236 @@ class description_walker extends Walker_Nav_Menu
             
 }
 
-
 add_editor_style('editor-style.css');
 
+// Add Twitter Bootstrap's standard 'active' class name to the active nav link item
 
+add_filter('nav_menu_css_class', 'add_active_class', 10, 2 );
+function add_active_class($classes, $item) {
+	if($item->menu_item_parent == 0 && in_array('current-menu-item', $classes)) {
+        $classes[] = "active";
+	}
+    return $classes;
+}
+
+// enqueue styles
+
+function theme_styles()  
+{ 
+    // This is the compiled css file from LESS - this means you compile the LESS file locally and put it in the appropriate directory if you want to make any changes to the master bootstrap.css.
+    //wp_register_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.css', array(), '1.0', 'all' );
+    //wp_register_style( 'bootstrap-responsive', get_template_directory_uri() . '/css/responsive.css', array(), '1.0', 'all' );
+    wp_register_style( 'wp-bootstrap', get_template_directory_uri() . '/style.css', array(), '1.0', 'all' );
+    
+    //wp_enqueue_style( 'bootstrap' );
+    //wp_enqueue_style( 'bootstrap-responsive' );
+    wp_enqueue_style( 'wp-bootstrap');
+}
+add_action('wp_enqueue_scripts', 'theme_styles');
+
+// enqueue javascript
+
+function theme_js(){
+  wp_register_script('less', get_template_directory_uri().'/library/js/less-1.3.0.min.js');
+
+  wp_deregister_script('jquery'); // initiate the function  
+  wp_register_script('jquery', get_template_directory_uri().'/library/js/libs/jquery-1.7.1.min.js', false, '1.7.1');
+
+  wp_register_script('bootstrap-alert', get_template_directory_uri().'/library/js/bootstrap-alert.js');
+  wp_register_script('bootstrap-button', get_template_directory_uri().'/library/js/bootstrap-button.js');
+  wp_register_script('bootstrap-carousel', get_template_directory_uri().'/library/js/bootstrap-carousel.js');
+  wp_register_script('bootstrap-collapse', get_template_directory_uri().'/library/js/bootstrap-collapse.js');
+  wp_register_script('bootstrap-dropdown', get_template_directory_uri().'/library/js/bootstrap-dropdown.js');
+  wp_register_script('bootstrap-modal', get_template_directory_uri().'/library/js/bootstrap-modal.js');
+  wp_register_script('bootstrap-popover', get_template_directory_uri().'/library/js/bootstrap-popover.js');
+  wp_register_script('bootstrap-scrollspy', get_template_directory_uri().'/library/js/bootstrap-scrollspy.js');
+  wp_register_script('bootstrap-tab', get_template_directory_uri().'/library/js/bootstrap-tab.js');
+  wp_register_script('bootstrap-tooltip', get_template_directory_uri().'/library/js/bootstrap-tooltip.js');
+  wp_register_script('bootstrap-transition', get_template_directory_uri().'/library/js/bootstrap-transition.js');
+  wp_register_script('bootstrap-typeahead', get_template_directory_uri().'/library/js/bootstrap-typeahead.js');
+
+  wp_register_script('wpbs-scripts', get_template_directory_uri().'/library/js/scripts.js');
+  wp_register_script('modernizr', get_template_directory_uri().'/library/js/modernizr.full.min.js');
+
+  wp_enqueue_script('less', array(''), '1.3.0', true);
+  wp_enqueue_script('jquery');
+  wp_enqueue_script('bootstrap-alert', array('jQuery'), '1.1', true);
+  wp_enqueue_script('bootstrap-button', array('jQuery'), '1.1', true);
+  wp_enqueue_script('bootstrap-carousel', array('jQuery'), '1.1', true);
+  wp_enqueue_script('bootstrap-collapse', array('jQuery'), '1.1', true);
+  wp_enqueue_script('bootstrap-dropdown', array('jQuery'), '1.1', true);
+  wp_enqueue_script('bootstrap-modal', array('jQuery'), '1.1', true);
+  wp_enqueue_script('bootstrap-tooltip', array('jQuery'), '1.1', true);
+  wp_enqueue_script('bootstrap-popover', array('jQuery'), '1.1', true);
+  wp_enqueue_script('bootstrap-scrollspy', array('jQuery'), '1.1', true);
+  wp_enqueue_script('bootstrap-tab', array('jQuery'), '1.1', true);
+  wp_enqueue_script('bootstrap-transition', array('jQuery'), '1.1', true);
+  wp_enqueue_script('bootstrap-typeahead', array('jQuery'), '1.1', true);
+  wp_enqueue_script('wpbs-scripts', array('jQuery'), '1.1', true);
+  wp_enqueue_script('modernizr', array('jQuery'), '1.1', true);
+}
+add_action('wp_enqueue_scripts', 'theme_js');
+
+// Get theme options
+function get_wpbs_theme_options(){
+  $theme_options_styles = '';
+    
+      $heading_typography = of_get_option('heading_typography');
+      if ($heading_typography) {
+        $theme_options_styles .= '
+        h1, h2, h3, h4, h5, h6{ 
+          font-family: ' . $heading_typography['face'] . '; 
+          font-weight: ' . $heading_typography['style'] . '; 
+          color: ' . $heading_typography['color'] . '; 
+        }';
+      }
+      
+      $main_body_typography = of_get_option('main_body_typography');
+      if ($main_body_typography) {
+        $theme_options_styles .= '
+        body{ 
+          font-family: ' . $main_body_typography['face'] . '; 
+          font-weight: ' . $main_body_typography['style'] . '; 
+          color: ' . $main_body_typography['color'] . '; 
+        }';
+      }
+      
+      $link_color = of_get_option('link_color');
+      if ($link_color) {
+        $theme_options_styles .= '
+        a{ 
+          color: ' . $link_color . '; 
+        }';
+      }
+      
+      $link_hover_color = of_get_option('link_hover_color');
+      if ($link_hover_color) {
+        $theme_options_styles .= '
+        a:hover{ 
+          color: ' . $link_hover_color . '; 
+        }';
+      }
+      
+      $link_active_color = of_get_option('link_active_color');
+      if ($link_active_color) {
+        $theme_options_styles .= '
+        a:active{ 
+          color: ' . $link_active_color . '; 
+        }';
+      }
+      
+      $topbar_position = of_get_option('nav_position');
+      if ($topbar_position == 'scroll') {
+        $theme_options_styles .= '
+        .navbar{ 
+          position: static; 
+        }
+        body{
+          padding-top: 0;
+        }
+        ' 
+        ;
+      }
+      
+      $topbar_bg_color = of_get_option('top_nav_bg_color');
+      if ($topbar_bg_color) {
+        $theme_options_styles .= '
+        .navbar-inner, .navbar .fill { 
+          background-color: '. $topbar_bg_color . ';
+        }';
+      }
+      
+      $use_gradient = of_get_option('showhidden_gradient');
+      if ($use_gradient) {
+        $topbar_bottom_gradient_color = of_get_option('top_nav_bottom_gradient_color');
+      
+        $theme_options_styles .= '
+        .navbar-inner, .navbar .fill {
+          background-image: -khtml-gradient(linear, left top, left bottom, from(' . $topbar_bg_color . '), to('. $topbar_bottom_gradient_color . '));
+          background-image: -moz-linear-gradient(top, ' . $topbar_bg_color . ', '. $topbar_bottom_gradient_color . ');
+          background-image: -ms-linear-gradient(top, ' . $topbar_bg_color . ', '. $topbar_bottom_gradient_color . ');
+          background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, ' . $topbar_bg_color . '), color-stop(100%, '. $topbar_bottom_gradient_color . '));
+          background-image: -webkit-linear-gradient(top, ' . $topbar_bg_color . ', '. $topbar_bottom_gradient_color . '2);
+          background-image: -o-linear-gradient(top, ' . $topbar_bg_color . ', '. $topbar_bottom_gradient_color . ');
+          background-image: linear-gradient(top, ' . $topbar_bg_color . ', '. $topbar_bottom_gradient_color . ');
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\'' . $topbar_bg_color . '\', endColorstr=\''. $topbar_bottom_gradient_color . '2\', GradientType=0);
+        }';
+      }
+      else{
+        $theme_options_styles .= '.navbar-inner, .navbar .fill { background-image: none; };';
+      } 
+      
+      $topbar_link_color = of_get_option('top_nav_link_color');
+      if ($topbar_link_color) {
+        $theme_options_styles .= '
+        .navbar .nav li a { 
+          color: '. $topbar_link_color . ';
+        }';
+      }
+      
+      $topbar_link_hover_color = of_get_option('top_nav_link_hover_color');
+      if ($topbar_link_hover_color) {
+        $theme_options_styles .= '
+        .navbar .nav li a:hover { 
+          color: '. $topbar_link_hover_color . ';
+        }';
+      }
+      
+      $topbar_dropdown_hover_bg_color = of_get_option('top_nav_dropdown_hover_bg');
+      if ($topbar_dropdown_hover_bg_color) {
+        $theme_options_styles .= '
+          .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover {
+            background-color: ' . $topbar_dropdown_hover_bg_color . ';
+          }
+        ';
+      }
+      
+      $topbar_dropdown_item_color = of_get_option('top_nav_dropdown_item');
+      if ($topbar_dropdown_item_color){
+        $theme_options_styles .= '
+          .dropdown-menu a{
+            color: ' . $topbar_dropdown_item_color . ' !important;
+          }
+        ';
+      }
+      
+      $hero_unit_bg_color = of_get_option('hero_unit_bg_color');
+      if ($hero_unit_bg_color) {
+        $theme_options_styles .= '
+        .hero-unit { 
+          background-color: '. $hero_unit_bg_color . ';
+        }';
+      }
+      
+      $suppress_comments_message = of_get_option('suppress_comments_message');
+      if ($suppress_comments_message){
+        $theme_options_styles .= '
+        #main article {
+          border-bottom: none;
+        }';
+      }
+      
+      $additional_css = of_get_option('wpbs_css');
+      if( $additional_css ){
+        $theme_options_styles .= $additional_css;
+      }
+          
+      if($theme_options_styles){
+        echo '<style>' 
+        . $theme_options_styles . '
+        </style>';
+      }
+    
+      $bootstrap_theme = of_get_option('wpbs_theme');
+      $use_theme = of_get_option('showhidden_themes');
+      
+      if( $bootstrap_theme && $use_theme ){
+        if( $bootstrap_theme == 'default' ){}
+        else {
+          echo '<link rel="stylesheet" href="' . get_template_directory_uri() . '/admin/themes/' . $bootstrap_theme . '.css">';
+        }
+      }
+} // end get_wpbs_theme_options function
 
 
 

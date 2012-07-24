@@ -11,6 +11,8 @@ add_shortcode('gallery', 'gallery_shortcode_tbs');
 function gallery_shortcode_tbs($attr) {
 	global $post, $wp_locale;
 
+	$output = "";
+
 	$args = array( 'post_type' => 'attachment', 'numberposts' => -1, 'post_status' => null, 'post_parent' => $post->ID ); 
 	$attachments = get_posts($args);
 	if ($attachments) {
@@ -33,7 +35,7 @@ function gallery_shortcode_tbs($attr) {
 function buttons( $atts, $content = null ) {
 	extract( shortcode_atts( array(
 	'type' => 'default', /* primary, default, info, success, danger, warning, inverse */
-	'size' => 'medium', /* small, medium, large */
+	'size' => 'default', /* mini, small, default, large */
 	'url'  => '',
 	'text' => '', 
 	), $atts ) );
@@ -45,7 +47,7 @@ function buttons( $atts, $content = null ) {
 		$type = "btn-" . $type;
 	}
 	
-	if($size == "medium"){
+	if($size == "default"){
 		$size = "";
 	}
 	else{
@@ -69,7 +71,7 @@ function alerts( $atts, $content = null ) {
 	'text' => '', 
 	), $atts ) );
 	
-	$output = '<div class="fade in alert '. $type . '">';
+	$output = '<div class="fade in alert alert-'. $type . '">';
 	if($close == 'true') {
 		$output .= '<a class="close" data-dismiss="alert">×</a>';
 	}
@@ -88,7 +90,7 @@ function block_messages( $atts, $content = null ) {
 	'text' => '', 
 	), $atts ) );
 	
-	$output = '<div class="fade in alert alert-block '. $type . '">';
+	$output = '<div class="fade in alert alert-block alert-'. $type . '">';
 	if($close == 'true') {
 		$output .= '<a class="close" data-dismiss="alert">×</a>';
 	}

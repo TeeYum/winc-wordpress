@@ -17,7 +17,7 @@ The comments page for Bones
 <!-- You can start editing here. -->
 
 <?php if ( have_comments() ) : ?>
-	
+	<?php if ( ! empty($comments_by_type['comment']) ) : ?>
 	<h3 id="comments"><?php comments_number('<span>' . __("No","bonestheme") . '</span> ' . __("Responses","bonestheme") . '', '<span>' . __("One","bonestheme") . '</span> ' . __("Response","bonestheme") . '', '<span>%</span> ' . __("Responses","bonestheme") );?> <?php _e("to","bonestheme"); ?> &#8220;<?php the_title(); ?>&#8221;</h3>
 
 	<nav id="comment-nav">
@@ -30,6 +30,16 @@ The comments page for Bones
 	<ol class="commentlist">
 		<?php wp_list_comments('type=comment&callback=bones_comments'); ?>
 	</ol>
+	
+	<?php endif; ?>
+	
+	<?php if ( ! empty($comments_by_type['pings']) ) : ?>
+		<h3 id="pings">Trackbacks/Pingbacks</h3>
+		
+		<ol class="pinglist">
+			<?php wp_list_comments('type=pings&callback=list_pings'); ?>
+		</ol>
+	<?php endif; ?>
 	
 	<nav id="comment-nav">
 		<ul class="clearfix">
@@ -94,8 +104,7 @@ The comments page for Bones
 			<div class="control-group">
 			  <label for="author"><?php _e("Name","bonestheme"); ?> <?php if ($req) echo "(required)"; ?></label>
 			  <div class="input-prepend">
-			  	<span class="add-on"><i class="icon-user"></i></span>
-			  	<input type="text" name="author" id="author" value="<?php echo esc_attr($comment_author); ?>" placeholder="<?php _e("Your Name","bonestheme"); ?>" tabindex="1" <?php if ($req) echo "aria-required='true'"; ?> />
+			  	<span class="add-on"><i class="icon-user"></i></span><input type="text" name="author" id="author" value="<?php echo esc_attr($comment_author); ?>" placeholder="<?php _e("Your Name","bonestheme"); ?>" tabindex="1" <?php if ($req) echo "aria-required='true'"; ?> />
 			  </div>
 		  	</div>
 		</li>
@@ -104,8 +113,7 @@ The comments page for Bones
 			<div class="control-group">
 			  <label for="email"><?php _e("Mail","bonestheme"); ?> <?php if ($req) echo "(required)"; ?></label>
 			  <div class="input-prepend">
-			  	<span class="add-on"><i class="icon-envelope"></i></span>
-			  	<input type="email" name="email" id="email" value="<?php echo esc_attr($comment_author_email); ?>" placeholder="<?php _e("Your Email","bonestheme"); ?>" tabindex="2" <?php if ($req) echo "aria-required='true'"; ?> />
+			  	<span class="add-on"><i class="icon-envelope"></i></span><input type="email" name="email" id="email" value="<?php echo esc_attr($comment_author_email); ?>" placeholder="<?php _e("Your Email","bonestheme"); ?>" tabindex="2" <?php if ($req) echo "aria-required='true'"; ?> />
 			  	<span class="help-inline">(<?php _e("will not be published","bonestheme"); ?>)</span>
 			  </div>
 		  	</div>
@@ -115,8 +123,7 @@ The comments page for Bones
 			<div class="control-group">
 			  <label for="url"><?php _e("Website","bonestheme"); ?></label>
 			  <div class="input-prepend">
-			  <span class="add-on"><i class="icon-home"></i></span>
-			  	<input type="url" name="url" id="url" value="<?php echo esc_attr($comment_author_url); ?>" placeholder="<?php _e("Your Website","bonestheme"); ?>" tabindex="3" />
+			  <span class="add-on"><i class="icon-home"></i></span><input type="url" name="url" id="url" value="<?php echo esc_attr($comment_author_url); ?>" placeholder="<?php _e("Your Website","bonestheme"); ?>" tabindex="3" />
 			  </div>
 		  	</div>
 		</li>

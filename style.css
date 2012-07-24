@@ -56,7 +56,18 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 
 body{
 	padding-top: 0;
-	background:url(img/bg.png) repeat;
+}
+
+/* Admin Top Navigation fixes */
+
+body.admin-bar .navbar-fixed-top{ 
+	top: 28px; 
+}
+
+.navbar .brand{
+	color: #000 !important;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 0 30px rgba(255, 255, 255, 0.125);
+	font-weight: bold !important;
 }
 
 .nav-container{
@@ -80,24 +91,6 @@ input, textarea, select, .uneditable-input {
 	padding-left: 0;
 }
 
-#logo{
-	padding-top:2.5px;
-}
-
-#menu-nav{
-	float: right !important;
-}
-
-.navbar-inner{
-	background: url(img/header.png) repeat !important;	
-	max-height:65px !important;
-	min-height:none !important;
-}
-
-.container-fluid .nav-container{
-	font-size:17px !important;
-}
-
 #s{
 	width: 100px;
 }
@@ -115,12 +108,12 @@ input, textarea, select, .uneditable-input {
 	margin-bottom: 18px;
 }
 
-#menu-footer-nav{
+.footer-links .menu{
 	list-style-type: none;
 	margin-left: 0;
 }
 
-#menu-footer-nav li{
+.footer-links .menu li{
 	float: left;
 	margin-left: 10px;
 }
@@ -173,6 +166,10 @@ div[id*='attachment_']{
 #credit320{
 	background: url('images/320press_mini.png') no-repeat left top transparent;
 	padding-left: 20px;
+}
+
+#main .hero-unit img{
+	margin-bottom: 1em;
 }
 
 #main article img{
@@ -234,6 +231,15 @@ video {
 
 /* page styling */
 
+#featured-carousel .item{
+	width: 970px;
+	height: 600px;
+}
+
+.carousel-caption p{
+	display: none;
+}
+
 .page-template-page-homepage-php #main article{
 	border-bottom: none;
 }
@@ -284,25 +290,34 @@ ol.commentlist a.comment-edit-link{
 
 ol.commentlist span.edit-comment{
 	position: absolute;
-	right: 10px;
+	right: 0;
 	top: 8px;
 }
 
 ol.commentlist li.bypostauthor{
 	background-color: #dddddd;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
+}
+
+ol.commentlist ul.children li{
+	background-color: #cccccc;
+}
+
+ol.commentlist ul.children li ul.children li{
+	background-color: #bbbbbb;
+}
+
+ol.commentlist ul.children li ul.children li ul.children li{
+	background-color: #aaaaaa;
+}
+
+ol.commentlist article{
+	border-bottom: none !important;
 }
 
 a.comment-reply-link{
 	position: absolute;
 	right: 0;
 	bottom: 0;
-}
-
-#cancel-comment-reply{
-	padding-left: 20px;
 }
 
 #comment-nav ul{
@@ -336,8 +351,21 @@ ol.commentlist li{
 	background-color: #F0F0F0;
 }
 
+#pings{
+	margin-bottom: 9px;
+}
+
+ol.pinglist{
+	list-style-type: none;
+	margin: 0 0 9px 0;
+}
+
 #comment{
 	width: 270px;
+}
+
+ol.commentlist #respond{
+	padding: 5px 10px;
 }
 
 /* specific post-type styles */
@@ -482,11 +510,15 @@ blockquote.pull-left{
 	padding-right: 15px;
 }
 
+@media only screen and (min-width: 768px) {
+	.carousel-caption p{
+		display: block;
+	}
+}
 
-
-@media only screen and (min-width: 940px) {
+@media only screen and (min-width: 980px) {
 	body{
-		padding-top: 90px;
+		padding-top: 60px;
 	}
 	
 	.container-fluid{
@@ -554,10 +586,11 @@ blockquote.pull-left{
 	
 	#s{
 		width: 210px;
+		margin-bottom: 6px;
 	}
 	
 	.widget_search input{
-		width: 203px;
+		width: 209px;
 	}
 	
 	.comment .vcard .comment-text{

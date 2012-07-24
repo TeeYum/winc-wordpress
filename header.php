@@ -10,9 +10,9 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		
-		<title><?php wp_title('', true, 'right'); ?></title>
+		<title><?php bloginfo('name'); ?><?php wp_title('-', true, 'left'); ?></title>
 				
-		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
 		<!-- icons & favicons -->
 		<!-- For iPhone 4 -->
@@ -25,13 +25,7 @@
 		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/library/images/icons/l/apple-touch-icon.png">
 		<!-- For everything else -->
 		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
-		
-		<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script>window.jQuery || document.write(unescape('%3Cscript src="<?php echo get_template_directory_uri(); ?>/library/js/libs/jquery-1.7.1.min.js"%3E%3C/script%3E'))</script>
-		
-		<script src="<?php echo get_template_directory_uri(); ?>/library/js/modernizr.full.min.js"></script>
-		
+				
 		<!-- media-queries.js (fallback) -->
 		<!--[if lt IE 9]>
 			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>			
@@ -43,189 +37,49 @@
 		<![endif]-->
 		
   		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-		
+
+  		<link rel="stylesheet/less" type="text/css" href="<?php echo get_template_directory_uri(); ?>/less/bootstrap.less">
+  		<link rel="stylesheet/less" type="text/css" href="<?php echo get_template_directory_uri(); ?>/less/responsive.less">
+
 		<!-- wordpress head functions -->
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
-		
-		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
-		
-		<?php
-			$theme_options_styles = '';
-		
-			$heading_typography = of_get_option('heading_typography');
-			if ($heading_typography) {
-				$theme_options_styles .= '
-				h1, h2, h3, h4, h5, h6{ 
-					font-family: ' . $heading_typography['face'] . '; 
-					font-weight: ' . $heading_typography['style'] . '; 
-					color: ' . $heading_typography['color'] . '; 
-				}';
-			}
-			
-			$main_body_typography = of_get_option('main_body_typography');
-			if ($main_body_typography) {
-				$theme_options_styles .= '
-				body{ 
-					font-family: ' . $main_body_typography['face'] . '; 
-					font-weight: ' . $main_body_typography['style'] . '; 
-					color: ' . $main_body_typography['color'] . '; 
-				}';
-			}
-			
-			$link_color = of_get_option('link_color');
-			if ($link_color) {
-				$theme_options_styles .= '
-				a{ 
-					color: ' . $link_color . '; 
-				}';
-			}
-			
-			$link_hover_color = of_get_option('link_hover_color');
-			if ($link_hover_color) {
-				$theme_options_styles .= '
-				a:hover{ 
-					color: ' . $link_hover_color . '; 
-				}';
-			}
-			
-			$link_active_color = of_get_option('link_active_color');
-			if ($link_active_color) {
-				$theme_options_styles .= '
-				a:active{ 
-					color: ' . $link_active_color . '; 
-				}';
-			}
-			
-			$topbar_position = of_get_option('nav_position');
-			if ($topbar_position == 'scroll') {
-				$theme_options_styles .= '
-				.navbar{ 
-					position: static; 
-				}
-				body{
-					padding-top: 0;
-				}
-				'	
-				;
-			}
-			
-			$topbar_bg_color = of_get_option('top_nav_bg_color');
-			if ($topbar_bg_color) {
-				$theme_options_styles .= '
-				.navbar-inner, .navbar .fill { 
-					background-color: '. $topbar_bg_color . ';
-				}';
-			}
-			
-			$use_gradient = of_get_option('showhidden_gradient');
-			if ($use_gradient) {
-				$topbar_bottom_gradient_color = of_get_option('top_nav_bottom_gradient_color');
-			
-				$theme_options_styles .= '
-				.navbar-inner, .navbar .fill {
-					background-image: -khtml-gradient(linear, left top, left bottom, from(' . $topbar_bg_color . '), to('. $topbar_bottom_gradient_color . '));
-					background-image: -moz-linear-gradient(top, ' . $topbar_bg_color . ', '. $topbar_bottom_gradient_color . ');
-					background-image: -ms-linear-gradient(top, ' . $topbar_bg_color . ', '. $topbar_bottom_gradient_color . ');
-					background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, ' . $topbar_bg_color . '), color-stop(100%, '. $topbar_bottom_gradient_color . '));
-					background-image: -webkit-linear-gradient(top, ' . $topbar_bg_color . ', '. $topbar_bottom_gradient_color . '2);
-					background-image: -o-linear-gradient(top, ' . $topbar_bg_color . ', '. $topbar_bottom_gradient_color . ');
-					background-image: linear-gradient(top, ' . $topbar_bg_color . ', '. $topbar_bottom_gradient_color . ');
-					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\'' . $topbar_bg_color . '\', endColorstr=\''. $topbar_bottom_gradient_color . '2\', GradientType=0);
-				}';
-			}
-			else{
-				$theme_options_styles .= '.navbar-inner, .navbar .fill { background-image: none; };';
-			}	
-			
-			$topbar_link_color = of_get_option('top_nav_link_color');
-			if ($topbar_link_color) {
-				$theme_options_styles .= '
-				.navbar .nav li a { 
-					color: '. $topbar_link_color . ';
-				}';
-			}
-			
-			$topbar_link_hover_color = of_get_option('top_nav_link_hover_color');
-			if ($topbar_link_hover_color) {
-				$theme_options_styles .= '
-				.navbar .nav li a:hover { 
-					color: '. $topbar_link_hover_color . ';
-				}';
-			}
-			
-			$topbar_dropdown_hover_bg_color = of_get_option('top_nav_dropdown_hover_bg');
-			if ($topbar_dropdown_hover_bg_color) {
-				$theme_options_styles .= '
-					.dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover {
-						background-color: ' . $topbar_dropdown_hover_bg_color . ';
-					}
-				';
-			}
-			
-			$topbar_dropdown_item_color = of_get_option('top_nav_dropdown_item');
-			if ($topbar_dropdown_item_color){
-				$theme_options_styles .= '
-					.dropdown-menu a{
-						color: ' . $topbar_dropdown_item_color . ' !important;
-					}
-				';
-			}
-			
-			$hero_unit_bg_color = of_get_option('hero_unit_bg_color');
-			if ($hero_unit_bg_color) {
-				$theme_options_styles .= '
-				.hero-unit { 
-					background-color: '. $hero_unit_bg_color . ';
-				}';
-			}
-			
-			$suppress_comments_message = of_get_option('suppress_comments_message');
-			if ($suppress_comments_message){
-				$theme_options_styles .= '
-				#main article {
-					border-bottom: none;
-				}';
-			}
-			
-			$additional_css = of_get_option('wpbs_css');
-			if( $additional_css ){
-				$theme_options_styles .= $additional_css;
-			}
-					
-			if($theme_options_styles){
-				echo '<style>' 
-				. $theme_options_styles . '
-				</style>';
-			}
-		
-			$bootstrap_theme = of_get_option('wpbs_theme');
-			$use_theme = of_get_option('showhidden_themes');
-			
-			if( $bootstrap_theme && $use_theme ){
-				if( $bootstrap_theme == 'default' ){
-		?>
-			<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
-		<?php
-				}
-				else {
-		?>
-			<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/admin/themes/<?php echo $bootstrap_theme; ?>.css">
-		<?php
-				}
-			}
-		?>
-		
-		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap-responsive.min.css">
-		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-		
+
+		<!-- theme options from options panel -->
+		<?php get_wpbs_theme_options(); ?>
+
 		<?php 
 
 			// check wp user level
 			get_currentuserinfo(); 
 			// store to use later
 			global $user_level; 
-		
+
+			// get list of post names to use in 'typeahead' plugin for search bar
+			if(of_get_option('search_bar', '1')) { // only do this if we're showing the search bar in the nav
+
+				global $post;
+				$tmp_post = $post;
+				$get_num_posts = 40; // go back and get this many post titles
+				$args = array( 'numberposts' => $get_num_posts );
+				$myposts = get_posts( $args );
+				$post_num = 0;
+
+				global $typeahead_data;
+				$typeahead_data = "[";
+
+				foreach( $myposts as $post ) :	setup_postdata($post);
+					$typeahead_data .= '"' . get_the_title() . '",';
+				endforeach;
+
+				$typeahead_data = substr($typeahead_data, 0, strlen($typeahead_data) - 1);
+
+				$typeahead_data .= "]";
+
+				$post = $tmp_post;
+
+			} // end if search bar is used
+
 		?>
 				
 	</head>
@@ -256,7 +110,7 @@
 							
 							<?php if(of_get_option('search_bar', '1')) {?>
 							<form class="navbar-search pull-right" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
-								<input name="s" id="s" type="text" class="search-query" placeholder="<?php _e('Search','bonestheme'); ?>">
+								<input name="s" id="s" type="text" class="search-query" autocomplete="off" placeholder="<?php _e('Search','bonestheme'); ?>" data-provide="typeahead" data-items="4" data-source='<?php echo $typeahead_data; ?>'>
 							</form>
 							<?php } ?>
 							
