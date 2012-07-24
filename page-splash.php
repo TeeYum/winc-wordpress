@@ -35,10 +35,10 @@ Template Name: Splash Page
 				<div id="quotes"></div> 
 				<div id="winc"></div>
 				<div id="homeLinks">
-					<p><a href="">Who We Are</a></p>	
-					<p><a href="">What We Do</a></p>	
-					<p><a href="">WinC News</a></p>	
-					<p><a href="converse.html">Join A Conversation</a></p>	
+					<p><a href="/about-us/staff-bios">Who We Are</a></p>	
+					<p><a href="/about-us">What We Do</a></p>	
+					<p><a href="/blog">WinC News</a></p>	
+					<p><a href="#">Join A Conversation</a></p>	
 				</div>
 			</div>
 
