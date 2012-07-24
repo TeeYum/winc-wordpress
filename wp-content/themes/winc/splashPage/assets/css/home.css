@@ -1,0 +1,70 @@
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	background: url("../img/bg.png") repeat; 
+}
+
+#homeMain{
+	margin:20% auto 0 auto;
+	overflow:hidden;
+	height:250px;
+	width:765px;
+}
+
+#quotes{
+	background: url("../img/quotes.png") no-repeat; 
+	height: 193px;
+	width:211px;
+	z-index:100;
+	position:absolute;
+	display:none;
+}
+#winc{
+	background: url("../img/winc.png") no-repeat;
+	height:45px ;
+	width:490px;
+	z-index: 99;
+	position:relative;
+	top:57px;
+	left:885px;
+}
+#homeLinks{
+	margin:20px 0 0 213px;
+	display:none;
+	z-index: 97;
+}
+#homeLinks p{
+	display:inline;
+	font-size:18px; 
+	padding-left:17px;
+}
+#homeLinks p a{
+	color:grey;
+	text-decoration:none;
+}
+
+#homeLinks p a:hover {
+	text-decoration:underline;
+}
+
+#splashSocial{
+	text-align:center;
+
+}
+
+#splashSocial p {
+	color: Grey;
+}
+
+
+#splashSocial p a {
+	color: grey;
+}
+
+
+#splashSocial p a:hover {
+	color:grey;
+	text-decoration:underline;
+}
+
+
