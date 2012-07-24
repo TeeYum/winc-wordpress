@@ -70,6 +70,12 @@ body.admin-bar .navbar-fixed-top{
 	font-weight: bold !important;
 }
 
+.navbar-inner{
+	background: url(/images/header.png) repeat !important;
+	max-height:65px !important;
+	min-height:none !important;
+}
+
 .nav-container{
 	padding-left: 0;
 	padding-right: 0;
