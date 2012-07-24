@@ -56,6 +56,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 
 body{
 	padding-top: 0;
+	background:url(img/bg.png) repeat;
 }
 
 .nav-container{
@@ -77,6 +78,24 @@ input, textarea, select, .uneditable-input {
 
 .navbar-search{
 	padding-left: 0;
+}
+
+#logo{
+	padding-top:2.5px;
+}
+
+#menu-nav{
+	float: right !important;
+}
+
+.navbar-inner{
+	background: url(img/header.png) repeat !important;	
+	max-height:65px !important;
+	min-height:none !important;
+}
+
+.container-fluid .nav-container{
+	font-size:17px !important;
 }
 
 #s{
@@ -467,7 +486,7 @@ blockquote.pull-left{
 
 @media only screen and (min-width: 940px) {
 	body{
-		padding-top: 60px;
+		padding-top: 90px;
 	}
 	
 	.container-fluid{

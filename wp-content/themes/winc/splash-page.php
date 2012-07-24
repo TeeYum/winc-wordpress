@@ -47,27 +47,12 @@
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/splashPage/assets/css/home.css" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/splashPage/assets/css/bootstrap.css" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/splashPage/assets/css/bootstrap-responsive.css" />
+ <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/splashPage/assets/css/home.css" />
 <!--[if lt IE 9]>
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/splashPage/assets/css/home.css" />
 <![endif]-->
 <?php wp_head(); ?>
 
-<style type="text/css">
-p.pos_left
-{
-position:relative;
-left:-20px;
-}
-
-p.pos_right
-{
-position:relative;
-left:200px;
-}
-</style>
 </head>
 
 <body> 
@@ -79,15 +64,14 @@ left:200px;
 				<p><a href="/about-us">Who We Are</a></p>	
 				<p><a href="/about-us/staff-bios">What We Do</a></p>	
 				<p><a href="/blog">WinC News</a></p>	
-				<p><class="pos_right"><a href="#">Join A Conversation</a></p>	
+				<p><a href="#">Join A Conversation</a></p>	
 			</div>
 		</div>
 		<div id="splashSocial" class="hide">
 			<p><a href="http://www.facebook.com/worldinconversationproject/">Facebook</a> -	<a href="http://twitter.com/worldinconvo">Twitter</a></p>
-			
-<script src="<?php echo get_template_directory_uri(); ?>/splashPage/assets/js/jquery.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/splashPage/assets/js/homeAnimation.js"></script>
-
+		</div>		
+		<script src="<?php echo get_template_directory_uri(); ?>/splashPage/assets/js/homeAnimation.js"></script>
+	</div>
 <div class="clear"></div>
 		
 </body>
