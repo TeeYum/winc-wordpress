@@ -12,9 +12,9 @@ Template Name: Splash Page
     <meta name="author" content="">
 
     <!-- Le styles -->
-	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/home.css" />	
-	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri(); ?>/splashPage/assets/css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/splashPage/assets/css/home.css" />	
+	<link href="<?php echo get_template_directory_uri(); ?>/splashPage/assets/css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
