@@ -1,0 +1,79 @@
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+#homeMain{
+	margin:20% auto 0 auto;
+	overflow:hidden;
+	height:250px;
+	width:880px;
+}
+
+#quotes{
+	background: url("../img/quotes.png") no-repeat white; 
+	height: 193px;
+	width:211px;
+	z-index:100;
+	position:absolute;
+	display:none;
+}
+#winc{
+	background: url("../img/winc.png") no-repeat white;
+	height:45px ;
+	width:490px;
+	z-index: 99;
+	position:relative;
+	top:57px;
+	left:-485px;
+}
+#project{
+	background: url("../img/project.png") no-repeat white;
+	height:50px ;
+	width:160px ;
+	z-index: 98;
+	position:relative;
+	top:12px;
+	left:900px;
+}
+#homeLinks{
+	margin:-20px 0 0 184px;
+	display:none;
+	z-index: 97;
+}
+#homeLinks p{
+	display:inline;
+	font-size:18px; 
+	padding-left:50px;
+}
+#homeLinks p a{
+	color:lightgrey;
+	text-decoration:none;
+}
+
+#homeLinks p a:hover {
+	color:grey;
+
+}
+
+#splashSocial{
+	text-align:center;
+
+}
+
+#splashSocial p {
+	color: lightGrey;
+}
+
+
+#splashSocial p a {
+	color: lightGrey;
+}
+
+
+#splashSocial p a:hover {
+	color:grey;
+
+}
+
+
