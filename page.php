@@ -2,7 +2,7 @@
 			
 			<div id="content" class="clearfix row-fluid">
 			
-				<div id="main" class="span8 clearfix well dropShawdow" role="main">
+				<div id="main" class="span8 clearfix well dropShadow" role="main">
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
