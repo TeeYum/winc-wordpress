@@ -92,7 +92,9 @@ body.admin-bar .navbar-fixed-top{
 	margin-top:13px;
 
 }
-
+#content{
+	padding-top:50px;
+}
 input, textarea, select, .uneditable-input {
 	margin-bottom: 0;
 }
