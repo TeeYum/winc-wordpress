@@ -58,13 +58,13 @@ body{
 	padding-top: 0;
 }
 
-/*Drop Shadow - similar to dashboard area */
+/*Drop Shadow*/ 
 .dropShadow{
 	border:0;
-	box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
-	-moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
-	-ms-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
-	-webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+	box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3) !important;
+	-moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3) !important;
+	-ms-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3) !important;
+	-webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3) !important;
 }
 
 /* Admin Top Navigation fixes */
