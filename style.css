@@ -59,7 +59,7 @@ body{
 }
 
 /*Drop Shadow - similar to dashboard area */
-.bitletDropShadow{
+.dropShadow{
 	border:0;
 	box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
 	-moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
