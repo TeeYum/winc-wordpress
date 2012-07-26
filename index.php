@@ -4,7 +4,7 @@
 				$blog_hero = of_get_option('blog_hero');
 				if ($blog_hero){
 			?>
-			<div class="clearfix row-fluid">
+			<div style="margin-top:60px;" class="clearfix row-fluid">
 				<div class="hero-unit">
 				
 					<h1><?php bloginfo('title'); ?></h1>
