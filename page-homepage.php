@@ -80,7 +80,7 @@ Template Name: Homepage
 								// not sure why this isn't working yet
 							?>
 						
-							<div class="hero-unit" style="margin-top:60px;background-image: url('<?php echo $featured_src; ?>'); background-repeat: no-repeat; background-position: 0 0;">
+							<div class="hero-unit" style="background-image: url('<?php echo $featured_src; ?>'); background-repeat: no-repeat; background-position: 0 0;">
 
 								<?php the_post_thumbnail( 'wpbs-featured-home' ); ?>
 
