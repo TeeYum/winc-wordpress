@@ -36,13 +36,13 @@ Template Name: Splash Page
 				<div id="world"></div>
 				<div id="inConversation"></div>
 				<div id="homeLinks">
-					<p><a href="">Who We Are</a></p>	
+					<p><a href="/about-us/staff-bios">Who We Are</a></p>	
 					<div class="dots"></div>	
-					<p><a href="">What We Do</a></p>	
+					<p><a href="/about-us">What We Do</a></p>	
 					<div class="dots"></div>	
-					<p><a href="">WinC News</a></p>	
+					<p><a href="/blog">WinC News</a></p>	
 					<div class="dots"></div>	
-					<p><a href="converse.html">Join A Conversation</a></p>	
+					<p><a href="https://php.scripts.psu.edu/webaccess/dept/worldinconversation/winc/">Join A Conversation</a></p>	
 				</div>
 			</div>
 			<div id="splashSocial" class="hide">
