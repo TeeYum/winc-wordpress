@@ -33,15 +33,18 @@ Template Name: Splash Page
 		<div class="container">
 			<div id="homeMain" >
 				<div id="quotes"></div> 
-				<div id="winc"></div>
+				<div id="world"></div>
+				<div id="inConversation"></div>
 				<div id="homeLinks">
-					<p><a href="/about-us/staff-bios">Who We Are</a></p>	
-					<p><a href="/about-us">What We Do</a></p>	
-					<p><a href="/blog">WinC News</a></p>	
-					<p><a href="#">Join A Conversation</a></p>	
+					<p><a href="">Who We Are</a></p>	
+					<div class="dots"></div>	
+					<p><a href="">What We Do</a></p>	
+					<div class="dots"></div>	
+					<p><a href="">WinC News</a></p>	
+					<div class="dots"></div>	
+					<p><a href="converse.html">Join A Conversation</a></p>	
 				</div>
 			</div>
-
 			<div id="splashSocial" class="hide">
 				<p><a href="http://www.facebook.com/worldinconversationproject/">Facebook</a> -	<a href="http://twitter.com/worldinconvo">Twitter</a></p>
 			</div>		
