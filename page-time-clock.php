@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Full Width Page
+Template Name: Time Clock Page 
 */
 ?>
 
