@@ -1,6 +1,7 @@
 <?php
 /*
 Template Name: Splash Page
+this is a stupid change 
 */
 ?>
 
