@@ -19,24 +19,33 @@ body {
 	position:absolute;
 	display:none;
 }
-#winc{
-	background: url("../img/winc.png") no-repeat;
-	height:45px ;
-	width:490px;
+#world{
+	background: url("../img/world.png") no-repeat;
+	height:49px;
+	width:154px;
 	z-index: 99;
 	position:relative;
-	top:57px;
-	left:885px;
+	top:49px;
+	left:-200px;
 }
+#inConversation{
+	background: url("../img/inconversation.png") no-repeat;
+	height:58px;
+	width:397px;
+	z-index: 99;
+	position:relative;
+	top:0;
+	left:854px;
+}
+
 #homeLinks{
-	margin:20px 0 0 213px;
+	margin-left:213px !important;	
 	display:none;
 	z-index: 97;
 }
 #homeLinks p{
-	display:inline;
 	font-size:18px; 
-	padding-left:17px;
+	float:left;
 }
 #homeLinks p a{
 	color:grey;
@@ -45,6 +54,13 @@ body {
 
 #homeLinks p a:hover {
 	text-decoration:underline;
+}
+.dots {
+	height:5px;
+	width:5px;
+	background:url("../img/dot.png") no-repeat;
+	float:left;
+	margin: 7px 7px 0;
 }
 
 #splashSocial{
@@ -66,5 +82,4 @@ body {
 	color:grey;
 	text-decoration:underline;
 }
-
 
