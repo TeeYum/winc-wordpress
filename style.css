@@ -623,3 +623,7 @@ blockquote.pull-left{
 		padding-right: 0;
 	}
 }
+
+#about-hero {
+	margin-left:20px;		
+}
