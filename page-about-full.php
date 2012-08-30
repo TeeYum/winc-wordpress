@@ -15,28 +15,28 @@ Template Name: About Page Template
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/img/headshots/headshot.png" alt="picture" />
-								<p class="about-name">Zach Zimbler</p>
+								<h3 class="about-name">Zach Zimbler</h3>
 								<p class="about-title">Web Guy</p>
 							</div>	
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/img/headshots/headshot.png" alt="picture" />
-								<p class="about-name">Zach Zimbler</p>
+								<h3 class="about-name">Zach Zimbler</h3>
 								<p class="about-title">Web Guy</p>
 							</div>	
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/img/headshots/headshot.png" alt="picture" />
-								<p class="about-name">Zach Zimbler</p>
+								<h3 class="about-name">Zach Zimbler</h3>
 								<p class="about-title">Web Guy</p>
 							</div>	
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/img/headshots/headshot.png" alt="picture" />
-								<p class="about-name">Zach Zimbler</p>
+								<h3 class="about-name">Zach Zimbler</h3>
 								<p class="about-title">Web Guy</p>
 							</div>	
 						</li>		
@@ -45,28 +45,28 @@ Template Name: About Page Template
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/img/headshots/headshot.png" alt="picture" />
-								<p class="about-name">Zach Zimbler</p>
+								<h3 class="about-name">Zach Zimbler</h3>
 								<p class="about-title">Web Guy</p>
 							</div>	
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/img/headshots/headshot.png" alt="picture" />
-								<p class="about-name">Zach Zimbler</p>
+								<h3 class="about-name">Zach Zimbler</h3>
 								<p class="about-title">Web Guy</p>
 							</div>	
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/img/headshots/headshot.png" alt="picture" />
-								<p class="about-name">Zach Zimbler</p>
+								<h3 class="about-name">Zach Zimbler</h3>
 								<p class="about-title">Web Guy</p>
 							</div>	
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/img/headshots/headshot.png" alt="picture" />
-								<p class="about-name">Zach Zimbler</p>
+								<h3 class="about-name">Zach Zimbler</h3>
 								<p class="about-title">Web Guy</p>
 							</div>	
 						</li>		
