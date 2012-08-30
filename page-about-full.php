@@ -13,9 +13,11 @@ Template Name: About Page Template
 					<? //staff head shots ?>
 					<ul class="thumbnails">
 						<li class="span2">
-							<img src="" alt="" />
-							<p class="name">Zach Zimbler</p>
-							<p class="title">Web Guy</p>
+							<div class="thumbnail">
+								<img src="" alt="" />
+								<p class="name">Zach Zimbler</p>
+								<p class="title">Web Guy</p>
+							</div>	
 						</li>		
 					</ul>
 
