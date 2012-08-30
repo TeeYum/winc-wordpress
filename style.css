@@ -624,6 +624,16 @@ blockquote.pull-left{
 	}
 }
 
+/* About page stylings */
 #about-hero {
 	margin-left:25px;		
+}
+
+.about-name {
+	text-align:center;
+	font-weight:200 !important;
+}
+.about-title {
+	text-align:center;
+
 }
