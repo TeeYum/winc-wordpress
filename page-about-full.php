@@ -9,6 +9,16 @@ Template Name: About Page Template
 			<div id="content" class="clearfix row-fluid">
 				<div id="about-hero" class="span12 well dropShadow"></div>	
 				<div id="main" class="span12 clearfix well dropShadow" role="main">
+					
+					<? //staff head shots ?>
+					<ul class="thumbnails">
+						<li class="span2">
+							<img src="" alt="" />
+							<p class="name">Zach Zimbler</p>
+							<p class="title">Web Guy</p>
+						</li>		
+					</ul>
+
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
