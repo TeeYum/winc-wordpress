@@ -14,7 +14,7 @@ Template Name: About Page Template
 					<ul class="thumbnails">
 						<li class="span3">
 							<div class="thumbnail">
-								<img src="http://placehold.it/260x180" alt="picture" />
+								<img src="img/headshots/headshot.png" alt="picture" />
 								<p class="name">Zach Zimbler</p>
 								<p class="title">Web Guy</p>
 							</div>	
