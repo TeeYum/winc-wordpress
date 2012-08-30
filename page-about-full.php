@@ -12,9 +12,9 @@ Template Name: About Page Template
 					
 					<? //staff head shots ?>
 					<ul class="thumbnails">
-						<li class="span2">
+						<li class="span3">
 							<div class="thumbnail">
-								<img src="" alt="" />
+								<img src="http://placehold.it/260x180" alt="picture" />
 								<p class="name">Zach Zimbler</p>
 								<p class="title">Web Guy</p>
 							</div>	
