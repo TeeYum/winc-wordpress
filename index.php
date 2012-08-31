@@ -1,25 +1,8 @@
 <?php get_header(); ?>
 			
-			<?php
-				$blog_hero = of_get_option('blog_hero');
-				if ($blog_hero){
-			?>
-			<div style="margin-top:50px;" class="clearfix row-fluid">
-				<div class="hero-unit">
-				
-					<h1><?php bloginfo('title'); ?></h1>
-					
-					<p><?php bloginfo('description'); ?></p>
-				
-				</div>
-			</div>
-			<?php
-				}
-			?>
-			
 			<div id="content" class="clearfix row-fluid">
 			
-				<div id="main" class="span8 clearfix" role="main">
+				<div id="main" class="span8 clearfix well dropShadow" role="main">
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
