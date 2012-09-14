@@ -37,9 +37,9 @@ this is a stupid change
 				<div id="world"></div>
 				<div id="inConversation"></div>
 				<div id="homeLinks">
-					<p><a href="/about-us/staff-bios">Who We Are</a></p>	
+					<p><a href="/about-us">What We Do</a></p>
 					<div class="dots"></div>	
-					<p><a href="/about-us">What We Do</a></p>	
+					<p><a href="/about-us/staff-bios">Who We Are</a></p>		
 					<div class="dots"></div>	
 					<p><a href="/blog">WinC News</a></p>	
 					<div class="dots"></div>	
