@@ -47,7 +47,7 @@ this is a stupid change
 				</div>
 			</div>
 			<div id="splashSocial" class="hide">
-				<p><a href="http://www.facebook.com/worldinconversationproject/">Facebook</a> -	<a href="http://twitter.com/worldinconvo">Twitter</a></p>
+				<p><a href="http://www.facebook.com/worldinconversation/">Facebook</a> -	<a href="http://twitter.com/worldinconvo">Twitter</a></p>
 			</div>		
 
 		</div> <!-- /container -->
