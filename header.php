@@ -88,7 +88,7 @@
 				
 		<header role="banner">
 		
-			<div id="inner-header" onclick=”location.href=’http://www.worldinconversation.org/’;” style=”cursor: pointer;” class="clearfix">
+			<div id="inner-header" class="clearfix">
 				
 				<div class="navbar navbar-fixed-top">
 					<div class="navbar-inner">
