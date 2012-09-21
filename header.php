@@ -94,7 +94,7 @@
 					<div class="navbar-inner">
 						<div class="container-fluid nav-container">
 							<nav role="navigation">
-								<a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>/blog"><img src="<?php echo get_template_directory_uri(); ?>/images/logo-header.png" alt="World In Conversation" /></a>
+								<a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>/blog"><img src="<?php echo get_template_directory_uri(); ?>/images/logo-header-2.png" alt="World In Conversation" /></a>
 								
 								<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 							        <span class="icon-bar"></span>
