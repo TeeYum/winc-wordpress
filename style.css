@@ -82,6 +82,10 @@ body.admin-bar .navbar-fixed-top{
 .navbar-inner{
 	background: url(images/header.png) repeat !important;
 	min-height: 65px !important;
+	box-shadow:none; 
+	-moz-box-shadow:none;
+	-ms-box-shadow: none;
+	-webkit-box-shadow:none;
 }
 
 .nav-container{
@@ -90,7 +94,7 @@ body.admin-bar .navbar-fixed-top{
 }
 
 #logo{
-	padding:2px 22px 0px;
+	padding:0px 22px 0px;
 }
 
 #inner-header{
