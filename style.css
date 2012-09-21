@@ -82,10 +82,10 @@ body.admin-bar .navbar-fixed-top{
 .navbar-inner{
 	background: url(images/header.png) repeat !important;
 	min-height: 65px !important;
-	box-shadow:none; 
-	-moz-box-shadow:none;
-	-ms-box-shadow: none;
-	-webkit-box-shadow:none;
+	box-shadow:0 0 0 !important; 
+	-moz-box-shadow:0 0 0 !important;
+	-ms-box-shadow:0 0 0 !important;
+	-webkit-box-shadow:0 0 0 !important;
 }
 
 .nav-container{
