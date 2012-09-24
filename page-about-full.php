@@ -8,7 +8,7 @@ Template Name: About Page Template
 			
 			<div id="content" class="clearfix row-fluid">
 				<div id="about-hero" class="span12 well dropShadow">
-					<p> aksjfhsdlkf jahsdlfkjahdsflkja dhsfkljdhslfkjdhsflkjahds lfkjhadsklfja </p>
+					<img src="<?php bloginfo('template_directory'); ?>/images/whomap.png" alt="picture" />
 				</div>	
 				<div id="main" class="span12 clearfix well dropShadow" role="main">
 					
