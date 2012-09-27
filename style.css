@@ -651,3 +651,9 @@ blockquote.pull-left{
 #map-main{
 	margin-left:0;
 }
+.map-dot{
+	background:url("images/dots.png") no-repeat;
+	width:30px;
+	height:30px;
+
+}
