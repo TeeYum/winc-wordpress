@@ -15,3 +15,15 @@ $('#isreal').hover(function(){
 }, function(){
 	$('#isreal').popover('hide')
 });
+
+$('#saudi').hover(function(){
+	$('#saudi').popover('show')
+}, function(){
+	$('#saudi').popover('hide')
+});
+
+$('#tehran').hover(function(){
+	$('#tehran').popover('show')
+}, function(){
+	$('#tehran').popover('hide')
+});
