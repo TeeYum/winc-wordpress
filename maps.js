@@ -1,3 +1,3 @@
-$('.btn-danger').click(function(){
-	$('.btn-danger').popover('toggle')
+$('.map-dot').click(function(){
+	$('.map-dot').popover('toggle')
 });
