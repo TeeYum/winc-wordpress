@@ -9,9 +9,9 @@ Template Name: Map of Dialogues
 			<div id="content" class="clearfix row-fluid">
 				<div id="map-hero" class="span12 well dropShadow">
 					<div id="map-container">
-						<div id="state-college" class="map-dot"  data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title"></div>
-						<div id="minnesota" class="map-dot"  data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title"></div>
-						<div id="isreal" class="map-dot"  data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title"></div>
+						<div id="state-college" class="map-dot"  data-content="And here's some amazing content. It's very engaging. right?" data-original-title="World In Conversation HQ"></div>
+						<div id="minnesota" class="map-dot"  data-content="And here's some amazing content. It's very engaging. right?" data-original-title="Leech Lake Tribal College"></div>
+						<div id="isreal" class="map-dot"  data-content="And here's some amazing content. It's very engaging. right?" data-original-title="Isreal"></div>
 					</div>				
 				</div>	
 				
