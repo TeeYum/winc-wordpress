@@ -18,5 +18,4 @@ Template Name: Map of Dialogues
 				<?php //get_sidebar(); // sidebar 1 ?>
     
 			</div> <!-- end #content -->
-			<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/maps.js" ></script>
 <?php get_footer(); ?>
