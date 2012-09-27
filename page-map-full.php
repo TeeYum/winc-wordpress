@@ -8,7 +8,7 @@ Template Name: Map of Dialogues
 			
 			<div id="content" class="clearfix row-fluid">
 				<div id="map-hero" class="span12 well dropShadow">
-					<img src="<?php bloginfo('template_directory'); ?>/images/whomap.png" alt="picture" />
+					<img src="<?php bloginfo('template_directory'); ?>/images/map.png" alt="picture" />
 				</div>	
 				
 				<div id="map-main" class="span12 well dropShadow" >
