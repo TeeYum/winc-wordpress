@@ -12,11 +12,11 @@ Template Name: Map of Dialogues
 				</div>	
 				
 				<div id="map-main" class="span12 well dropShadow" >
-				<a href="#" class="btn btn-large btn-danger" rel="Popover" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title">Click to toggle popover</a>	
+				<a href="#" class="btn btn-large btn-danger">Click to toggle popover</a>	
 				</div> <!-- end #main -->
     
 				<?php //get_sidebar(); // sidebar 1 ?>
     
 			</div> <!-- end #content -->
-
+			<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/map.js" ></script>
 <?php get_footer(); ?>
