@@ -631,7 +631,9 @@ blockquote.pull-left{
 
 /* About page stylings */
 #about-hero {
-	margin-left:25px;		
+}
+#about-main {
+	margin-left:0;
 }
 
 .about-name {
