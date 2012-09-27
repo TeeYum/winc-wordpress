@@ -11,8 +11,7 @@ Template Name: Map of Dialogues
 					<img src="<?php bloginfo('template_directory'); ?>/images/whomap.png" alt="picture" />
 				</div>	
 				
-				<div id="main" class="span12 well dropShadow" role="main">
-					
+				<div id="" class="span12 well dropShadow" >
 					<a href="#" class="btn btn-large btn-danger" rel="popover" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title">Click to toggle popover</a>	
 				</div> <!-- end #main -->
     
