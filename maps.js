@@ -9,3 +9,9 @@ $('#minnesota').hover(function(){
 }, function(){
 	$('#minnesota').popover('hide')
 });
+
+$('#isreal').hover(function(){
+	$('#isreal').popover('show')
+}, function(){
+	$('#isreal').popover('hide')
+});
