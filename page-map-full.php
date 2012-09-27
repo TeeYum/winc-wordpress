@@ -12,10 +12,7 @@ Template Name: Map of Dialogues
 				</div>	
 				
 				<div id="map-main" class="span12 well dropShadow" >
-				<div class="bs-docs-example" style="padding-bottom: 24px;">
-          <a href="#" class="btn btn-large btn-danger" rel="popover" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title">Click to toggle popover</a>
-        </div>		
-
+				<a href="#" class="btn btn-large btn-danger" rel="Popover" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title">Click to toggle popover</a>	
 				</div> <!-- end #main -->
     
 				<?php //get_sidebar(); // sidebar 1 ?>
