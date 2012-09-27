@@ -645,25 +645,31 @@ blockquote.pull-left{
 
 }
 /* Map Page Styles */
-#map-hero{
+#map-hero {
 	
 }
-#map-main{
+#map-main {
 	margin-left:0;
 }
-#map-container{
+#map-container {
 	background:url("images/map.png") no-repeat;
 	width:838px;
 	height:409px;
 	margin:0 auto;
 }
-.map-dot{
+.map-dot {
 	background:url("images/dots.png") no-repeat;
 	width:30px;
 	height:30px;
-
+	background-position:top;
 }
-#state-college{
+.map-dot:hover {
+	background:url("images/dots.png") no-repeat;
+	width:30px;
+	height:30px;
+	background-position:bottom;
+}
+#state-college {
 	position:relative;
 	top:150px;
 	left:200px;
