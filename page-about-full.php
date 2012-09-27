@@ -7,10 +7,10 @@ Template Name: About Page Template
 <?php get_header(); ?>
 			
 			<div id="content" class="clearfix row-fluid">
-				<div id="about-hero" class="span12 well dropShadow">
+				<div id="map-hero" class="span12 well dropShadow">
 					<img src="<?php bloginfo('template_directory'); ?>/images/whomap.png" alt="picture" />
 				</div>	
-				<div id="about-main" class="span12 clearfix well dropShadow" role="main">
+				<div id="map-main" class="span12 clearfix well dropShadow" role="main">
 					
 					<? //staff head shots ?>
 					<ul class="thumbnails">
