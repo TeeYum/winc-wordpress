@@ -1,5 +1,11 @@
-$('.map-dot').hover(function(){
-	$('.map-dot').popover('show')
+$('#state-college').hover(function(){
+	$('#state-college').popover('show')
 }, function(){
-	$('.map-dot').popover('hide')
+	$('#state-college').popover('hide')
+});
+
+$('#minnesota').hover(function(){
+	$('#minnesota').popover('show')
+}, function(){
+	$('#minnesota').popover('hide')
 });

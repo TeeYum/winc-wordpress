@@ -11,6 +11,7 @@ Template Name: Map of Dialogues
 					<div id="map-container">
 						<div id="state-college" class="map-dot"  data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title"></div>
 						<div id="minnesota" class="map-dot"  data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title"></div>
+						<div id="isreal" class="map-dot"  data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title"></div>
 					</div>				
 				</div>	
 				
