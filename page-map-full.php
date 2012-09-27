@@ -16,6 +16,7 @@ Template Name: Map of Dialogues
 						<div id="tehran" class="map-dot"  data-content="And here's some amazing content. It's very engaging. right?" data-original-title="Tehran"></div>
 						<div id="india" class="map-dot"  data-content="And here's some amazing content. It's very engaging. right?" data-original-title="India"></div>
 						<div id="myanmar" class="map-dot"  data-content="And here's some amazing content. It's very engaging. right?" data-original-title="Myanmar"></div>
+						<div id="haiti" class="map-dot"  data-content="And here's some amazing content. It's very engaging. right?" data-original-title="Haiti"></div>
 					</div>				
 				</div>	
 				

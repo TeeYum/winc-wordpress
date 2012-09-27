@@ -27,13 +27,21 @@ $('#tehran').hover(function(){
 }, function(){
 	$('#tehran').popover('hide')
 });
+
 $('#india').hover(function(){
 	$('#india').popover('show')
 }, function(){
 	$('#india').popover('hide')
 });
+
 $('#myanmar').hover(function(){
 	$('#myanmar').popover('show')
 }, function(){
 	$('#myanman').popover('hide')
+});
+
+$('#haiti').hover(function(){
+	$('#haiti').popover('show')
+}, function(){
+	$('#haiti').popover('hide')
 });
