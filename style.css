@@ -651,6 +651,12 @@ blockquote.pull-left{
 #map-main{
 	margin-left:0;
 }
+#map-container{
+	background:url("images/map.png") no-repeat;
+	width:838px;
+	height:409px;
+	margin:0 auto;
+}
 .map-dot{
 	background:url("images/dots.png") no-repeat;
 	width:30px;

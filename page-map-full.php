@@ -8,11 +8,12 @@ Template Name: Map of Dialogues
 			
 			<div id="content" class="clearfix row-fluid">
 				<div id="map-hero" class="span12 well dropShadow">
-					<img src="<?php bloginfo('template_directory'); ?>/images/map.png" alt="picture" />
+					<div id="map-container">
+						<div class="map-dot"  data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title"></div>
+					</div>				
 				</div>	
 				
 				<div id="map-main" class="span12 well dropShadow" >
-				<div class="map-dot"  data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title"></div>				
 				</div> <!-- end #main -->
     
 				<?php //get_sidebar(); // sidebar 1 ?>
