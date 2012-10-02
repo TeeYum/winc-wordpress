@@ -154,7 +154,7 @@ Template Name: About Page Template
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Nader-Sholy.png" alt="Nader Sholy" />
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Nadder-Sholy.png" alt="Nader Sholy" />
 								<h3 class="about-name">Nader Sholy</h3>
 								<p class="about-title">Facilitator</p>
 							</div>	
