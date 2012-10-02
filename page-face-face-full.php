@@ -41,7 +41,7 @@ Template Name: Face to Face
 							</div>
 						</div>
 						<div class="span6">
-							<iframe width="560" height="315" src="http://www.youtube.com/embed/HqYpJ5Bh4n8" frameborder="0" allowfullscreen></iframe>	
+							<iframe width="450" height="253" src="http://www.youtube.com/embed/HqYpJ5Bh4n8" frameborder="0" allowfullscreen></iframe>	
 						</div>
 					</div>
 				</div> <!-- end #main -->
