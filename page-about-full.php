@@ -30,16 +30,16 @@ Template Name: About Page Template
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/DJ-Seballos.png" alt="Sam Richards" />
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/DJ-Seballos.png" alt="DJ Seballos" />
 								<h3 class="about-name">DJ Seballos</h3>
 								<p class="about-title">Assistant Director</p>
 							</div>	
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Tim-Taylor.png" alt="Sam Richards" />
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Tim-Taylor.png" alt="Tim Taylor" />
 								<h3 class="about-name">Tim Taylor</h3>
-								<p class="about-title">Director of Operations</p>
+								<p class="about-title">Operations Manager</p>
 							</div>	
 						</li>		
 					</ul>
@@ -47,30 +47,30 @@ Template Name: About Page Template
 					<ul class="thumbnails">
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Laurie-Mulvey.png" alt="Laurie Mulvey" />
-								<h3 class="about-name">Laurie Mulvey</h3>
-								<p class="about-title">Executive Director</p>
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Brenton-Mitchell.png" alt="Brenton Mitchell" />
+								<h3 class="about-name">Brenton Mitchell</h3>
+								<p class="about-title">Lead Facilitation Coach</p>
 							</div>	
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Sam-Richards.png" alt="Sam Richards" />
-								<h3 class="about-name">Sam Richards</h3>
-								<p class="about-title">Director of Development</p>
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Karim-Bataineh.png" alt="Karim Bataineh" />
+								<h3 class="about-name">Karim Bataineh</h3>
+								<p class="about-title">Dialogue Recruitment Manager</p>
 							</div>	
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/DJ-Seballos.png" alt="Sam Richards" />
-								<h3 class="about-name">DJ Seballos</h3>
-								<p class="about-title">Assistant Director</p>
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Salim-George.png" alt="Salim George" />
+								<h3 class="about-name">Salim George</h3>
+								<p class="about-title">Facilitator Trainer</p>
 							</div>	
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Tim-Taylor.png" alt="Sam Richards" />
-								<h3 class="about-name">Tim Taylor</h3>
-								<p class="about-title">Director of Operations</p>
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Maurel-Merette.png" alt="Maurel Merette" />
+								<h3 class="about-name">Maurel Merette</h3>
+								<p class="about-title">Special Programs Coordinator</p>
 							</div>	
 						</li>		
 					</ul>
