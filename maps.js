@@ -51,3 +51,9 @@ $('#west-point').hover(function(){
 }, function(){
 	$('#west-point').popover('hide')
 });
+
+$('#kuwait').hover(function(){
+	$('#kuwait').popover('show')
+}, function(){
+	$('#kuwait').popover('hide')
+});
