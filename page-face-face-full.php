@@ -21,7 +21,7 @@ Template Name: Face to Face
 							</div>
 						</div>
 						<div class="span6">
-							<div class="face-to-face-title-box">
+							<div class="ftf-title-box">
 								<h2>Gender</h2>
 							</div>
 						</div>
