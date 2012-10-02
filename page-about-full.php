@@ -16,60 +16,23 @@ Template Name: About Page Template
 					<ul class="thumbnails">
 						<li class="span3">
 							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Laurie-Mulvey.png" alt="Laurie Mulvey" />
+								<h3 class="about-name">Laurie Mulvey</h3>
+								<p class="about-title">Executive Director</p>
+							</div>	
+						</li>		
+						<li class="span3">
+							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Sam-Richards.png" alt="Sam Richards" />
 								<h3 class="about-name">Sam Richards</h3>
-								<p class="about-title">Web Guy</p>
+								<p class="about-title">Director of Development</p>
 							</div>	
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/img/headshots/headshot.png" alt="picture" />
-								<h3 class="about-name">Zach Zimbler</h3>
-								<p class="about-title">Web Guy</p>
-							</div>	
-						</li>		
-						<li class="span3">
-							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/img/headshots/headshot.png" alt="picture" />
-								<h3 class="about-name">Zach Zimbler</h3>
-								<p class="about-title">Web Guy</p>
-							</div>	
-						</li>		
-						<li class="span3">
-							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/img/headshots/headshot.png" alt="picture" />
-								<h3 class="about-name">Zach Zimbler</h3>
-								<p class="about-title">Web Guy</p>
-							</div>	
-						</li>		
-					</ul>
-					<ul class="thumbnails">	
-						<li class="span3">
-							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/img/headshots/headshot.png" alt="picture" />
-								<h3 class="about-name">Zach Zimbler</h3>
-								<p class="about-title">Web Guy</p>
-							</div>	
-						</li>		
-						<li class="span3">
-							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/img/headshots/headshot.png" alt="picture" />
-								<h3 class="about-name">Zach Zimbler</h3>
-								<p class="about-title">Web Guy</p>
-							</div>	
-						</li>		
-						<li class="span3">
-							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/img/headshots/headshot.png" alt="picture" />
-								<h3 class="about-name">Zach Zimbler</h3>
-								<p class="about-title">Web Guy</p>
-							</div>	
-						</li>		
-						<li class="span3">
-							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/img/headshots/headshot.png" alt="picture" />
-								<h3 class="about-name">Zach Zimbler</h3>
-								<p class="about-title">Web Guy</p>
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Tim-Taylor.png" alt="Sam Richards" />
+								<h3 class="about-name">Sam Richards</h3>
+								<p class="about-title">Director of Development</p>
 							</div>	
 						</li>		
 					</ul>
