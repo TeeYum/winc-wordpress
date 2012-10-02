@@ -9,7 +9,7 @@ Template Name: Face to Face
 			<div id="content" class="clearfix row-fluid">
 				<div id="face-face-main" class="span12 well dropShadow" >
 					<img src="<?php bloginfo('template_directory'); ?>/images/facetofaceheader.png" alt="Face to Face Conversations" />
-					<div class="row">
+					<div class="row" style="margin-left:0px;margin-top:20px;">
 						<div class="span6">
 							<div class="face-to-face-title-box">
 								<h2>US Race Relations</h2>

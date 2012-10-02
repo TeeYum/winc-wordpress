@@ -724,6 +724,11 @@ blockquote.pull-left{
 	height:55px;
 	width:453px;
 	background:#61AA49;
-	border:2px solid #E6E6E6;
-	border-bottom:2px solid #808080;
+	border-bottom:4px solid #808080;
+}
+.face-to-face-title-box h2{
+	color:white !important;
+	text-align:center;
+	padding-top:9px;
+	font-weight:300;
 }
