@@ -45,3 +45,9 @@ $('#haiti').hover(function(){
 }, function(){
 	$('#haiti').popover('hide')
 });
+
+$('#west-point').hover(function(){
+	$('#west-point').popover('show')
+}, function(){
+	$('#west-point').popover('hide')
+});
