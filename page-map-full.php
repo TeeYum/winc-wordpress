@@ -22,8 +22,8 @@ Template Name: Map of Dialogues
 					</div>				
 				</div>	
 				
-				<div id="map-main" class="span12 well dropShadow" >
-				</div> <!-- end #main -->
+			<!--	<div id="map-main" class="span12 well dropShadow" >
+				</div>--> <!-- end #main -->
     
 				<?php //get_sidebar(); // sidebar 1 ?>
     
