@@ -30,9 +30,16 @@ Template Name: About Page Template
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/DJ-Seballos.png" alt="Sam Richards" />
+								<h3 class="about-name">DJ Seballos</h3>
+								<p class="about-title">Assistant Director</p>
+							</div>	
+						</li>		
+						<li class="span3">
+							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Tim-Taylor.png" alt="Sam Richards" />
-								<h3 class="about-name">Sam Richards</h3>
-								<p class="about-title">Director of Development</p>
+								<h3 class="about-name">Tim Taylor</h3>
+								<p class="about-title">Director of Operations</p>
 							</div>	
 						</li>		
 					</ul>
