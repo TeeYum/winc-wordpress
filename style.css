@@ -719,3 +719,9 @@ blockquote.pull-left{
 	top:--96px;
 	left:491px;
 }
+/* Face to face template */
+.face-to-face-title-box{
+	height:55px;
+	width:453px;
+	background:#61AA49;
+}
