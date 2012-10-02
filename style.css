@@ -720,15 +720,19 @@ blockquote.pull-left{
 	left:491px;
 }
 /* Face to face template */
-.face-to-face-title-box{
+.ftf-title-box{
 	height:55px;
 	width:453px;
 	background:#61AA49;
 	border-bottom:4px solid #808080;
 }
-.face-to-face-title-box h2{
+.ftf-title-box h2{
 	color:white !important;
 	text-align:center;
 	padding-top:9px;
 	font-weight:300;
+}
+.ftf-content-box{
+	width:413px;
+	margin-left:20px;
 }
