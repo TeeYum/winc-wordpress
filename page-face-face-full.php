@@ -23,6 +23,10 @@ Template Name: Face to Face
 						<div class="span6">
 							<div class="ftf-title-box">
 								<h2>Gender</h2>
+								<div class="ftf-content-box">	
+								<p>With growing concerns about university culture across America, our Gender dialogues have evolved to provide a space for Penn State students to discuss their experiences of and perspectives on gender. We explore the structural components of gender today by discussing what it is like to be a man or a woman, and what things influence our perception and actions. From alcohol and football to negotiating the sexual realm, these dialogues allow students to share personal stories and examine the role of gender in their personal lives as well as in the Penn State community.</p>
+								<p>These conversations, which typically involve eight participants, are facilitated by two trained facilitators. The facilitators use their training to create a space where all perspectives – from the far left to the far right – are unearthed and discussed.</p>									
+								</div>
 							</div>
 						</div>
 					</div>
