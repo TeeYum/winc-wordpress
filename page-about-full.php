@@ -16,8 +16,8 @@ Template Name: About Page Template
 					<ul class="thumbnails">
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/img/headshots/headshot.png" alt="picture" />
-								<h3 class="about-name">Zach Zimbler</h3>
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Sam-Richards.png" alt="Sam Richards" />
+								<h3 class="about-name">Sam Richards</h3>
 								<p class="about-title">Web Guy</p>
 							</div>	
 						</li>		
