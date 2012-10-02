@@ -74,6 +74,125 @@ Template Name: About Page Template
 							</div>	
 						</li>		
 					</ul>
+					
+					<ul class="thumbnails">
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/amanda-hommer.png" alt="Amanda Hommer" />
+								<h3 class="about-name">Amanda Hommer</h3>
+								<p class="about-title">Facilitator</p>
+							</div>	
+						</li>		
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Ben-Jumonville.png" alt="Ben Jumonville" />
+								<h3 class="about-name">Ben Jumonville</h3>
+								<p class="about-title">Facilitator</p>
+							</div>	
+						</li>		
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Carley-Cubit.png" alt="Carly Cubit" />
+								<h3 class="about-name">Carly Cubit</h3>
+								<p class="about-title">Facilitator</p>
+							</div>	
+						</li>		
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Chad-Littlefield.png" alt="Chad Littlefield" />
+								<h3 class="about-name">Chad Littlefield</h3>
+								<p class="about-title">Facilitator</p>
+							</div>	
+						</li>		
+					</ul>
+					
+					<ul class="thumbnails">
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Corinne-Lewin.png" alt="Corinne Lewin" />
+								<h3 class="about-name">Corinne Lewin</h3>
+								<p class="about-title">Facilitator</p>
+							</div>	
+						</li>		
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Erik-Morales.png" alt="Erik Morales" />
+								<h3 class="about-name">Erik Morales</h3>
+								<p class="about-title">Facilitator</p>
+							</div>	
+						</li>		
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Jenny-Beben.png" alt="Jenny Beben" />
+								<h3 class="about-name">Jenny Beben</h3>
+								<p class="about-title">Facilitator</p>
+							</div>	
+						</li>		
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Justin-Sova.png" alt="Justin Sova" />
+								<h3 class="about-name">Justin Sova</h3>
+								<p class="about-title">Facilitator</p>
+							</div>	
+						</li>		
+					</ul>
+					
+					<ul class="thumbnails">
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Khaylon-Blackeney.png" alt="Khaylon Blackeney" />
+								<h3 class="about-name">Khaylon Blackeney</h3>
+								<p class="about-title">Facilitator</p>
+							</div>	
+						</li>		
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Matt-Houser.png" alt="Matt Houser" />
+								<h3 class="about-name">Matt Houser</h3>
+								<p class="about-title">Facilitator</p>
+							</div>	
+						</li>		
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Nader-Sholy.png" alt="Nader Sholy" />
+								<h3 class="about-name">Nader Sholy</h3>
+								<p class="about-title">Facilitator</p>
+							</div>	
+						</li>		
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Rob-Lai.png" alt="Rob Lai" />
+								<h3 class="about-name">Rob Lai</h3>
+								<p class="about-title">Facilitator</p>
+							</div>	
+						</li>		
+					</ul>
+					
+					<ul class="thumbnails">
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Susie-Sharaf.png" alt="Susie Sharaf" />
+								<h3 class="about-name">Susie Sharaf</h3>
+								<p class="about-title">Facilitator</p>
+							</div>	
+						</li>		
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Terrance-Dowell.png" alt="Terrance Dowell" />
+								<h3 class="about-name">Terrance Dowell</h3>
+								<p class="about-title">Facilitator</p>
+							</div>	
+						</li>		
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Shantal-Minoso.png" alt="Shantal Minoso" />
+								<h3 class="about-name">Shantal Minoso</h3>
+								<p class="about-title">Office Intern</p>
+							</div>	
+						</li>		
+							
+					</ul>
+
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
