@@ -44,6 +44,36 @@ Template Name: About Page Template
 						</li>		
 					</ul>
 
+					<ul class="thumbnails">
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Laurie-Mulvey.png" alt="Laurie Mulvey" />
+								<h3 class="about-name">Laurie Mulvey</h3>
+								<p class="about-title">Executive Director</p>
+							</div>	
+						</li>		
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Sam-Richards.png" alt="Sam Richards" />
+								<h3 class="about-name">Sam Richards</h3>
+								<p class="about-title">Director of Development</p>
+							</div>	
+						</li>		
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/DJ-Seballos.png" alt="Sam Richards" />
+								<h3 class="about-name">DJ Seballos</h3>
+								<p class="about-title">Assistant Director</p>
+							</div>	
+						</li>		
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Tim-Taylor.png" alt="Sam Richards" />
+								<h3 class="about-name">Tim Taylor</h3>
+								<p class="about-title">Director of Operations</p>
+							</div>	
+						</li>		
+					</ul>
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
