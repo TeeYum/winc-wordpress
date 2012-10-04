@@ -58,7 +58,14 @@ Template Name: About Page Template
 								<h3 class="about-name">Salim George</h3>
 								<p class="about-title">Facilitator Trainer</p>
 							</div>	
-						</li>			
+						</li>	
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Erik-Morales.png" alt="Erik Morales" />
+								<h3 class="about-name">Erik Morales</h3>
+								<p class="about-title">SOC 119 Coordinator</p>
+							</div>	
+						</li>		
 					</ul>
 					
 					<ul class="thumbnails">
@@ -99,14 +106,7 @@ Template Name: About Page Template
 								<h3 class="about-name">Corinne Lewin</h3>
 								<p class="about-title">Facilitator</p>
 							</div>	
-						</li>		
-						<li class="span3">
-							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Erik-Morales.png" alt="Erik Morales" />
-								<h3 class="about-name">Erik Morales</h3>
-								<p class="about-title">Facilitator</p>
-							</div>	
-						</li>		
+						</li>				
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Jenny-Beben.png" alt="Jenny Beben" />
