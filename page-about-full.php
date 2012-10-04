@@ -65,17 +65,17 @@ Template Name: About Page Template
 								<h3 class="about-name">Erik Morales</h3>
 								<p class="about-title">SOC 119 Coordinator</p>
 							</div>	
-						</li>		
-					</ul>
-					
-					<ul class="thumbnails">
+						</li>	
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/amanda-hommer.png" alt="Amanda Hommer" />
 								<h3 class="about-name">Amanda Hommer</h3>
 								<p class="about-title">Facilitator</p>
 							</div>	
-						</li>		
+						</li>	
+					</ul>
+					
+					<ul class="thumbnails">			
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Ben-Jumonville.png" alt="Ben Jumonville" />
@@ -96,17 +96,17 @@ Template Name: About Page Template
 								<h3 class="about-name">Chad Littlefield</h3>
 								<p class="about-title">Facilitator</p>
 							</div>	
-						</li>		
-					</ul>
-					
-					<ul class="thumbnails">
+						</li>	
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Corinne-Lewin.png" alt="Corinne Lewin" />
 								<h3 class="about-name">Corinne Lewin</h3>
 								<p class="about-title">Facilitator</p>
 							</div>	
-						</li>				
+						</li>	
+					</ul>
+					
+					<ul class="thumbnails">				
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Jenny-Beben.png" alt="Jenny Beben" />
@@ -120,17 +120,24 @@ Template Name: About Page Template
 								<h3 class="about-name">Justin Sova</h3>
 								<p class="about-title">Facilitator</p>
 							</div>	
-						</li>		
-					</ul>
-					
-					<ul class="thumbnails">
+						</li>
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Khaylon-Blackeney.png" alt="Khaylon Blackeney" />
 								<h3 class="about-name">Khaylon Blakeney</h3>
 								<p class="about-title">Facilitator</p>
 							</div>	
+						</li>
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Matt-Houser.png" alt="Matt Houser" />
+								<h3 class="about-name">Matt Houser</h3>
+								<p class="about-title">Facilitator</p>
+							</div>	
 						</li>		
+					</ul>
+					
+					<ul class="thumbnails">		
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Matt-Houser.png" alt="Matt Houser" />
@@ -151,10 +158,7 @@ Template Name: About Page Template
 								<h3 class="about-name">Rob Lai</h3>
 								<p class="about-title">Facilitator</p>
 							</div>	
-						</li>		
-					</ul>
-					
-					<ul class="thumbnails">
+						</li>
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Susie-Sharaf.png" alt="Susie Sharaf" />
@@ -162,6 +166,9 @@ Template Name: About Page Template
 								<p class="about-title">Facilitator</p>
 							</div>	
 						</li>		
+					</ul>
+					
+					<ul class="thumbnails">
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Terrance-Dowell.png" alt="Terrance Dowell" />
