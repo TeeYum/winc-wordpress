@@ -141,7 +141,7 @@ Template Name: About Page Template
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Khaylon-Blackeney.png" alt="Khaylon Blackeney" />
-								<h3 class="about-name">Khaylon Blackeney</h3>
+								<h3 class="about-name">Khaylon Blakeney</h3>
 								<p class="about-title">Facilitator</p>
 							</div>	
 						</li>		
