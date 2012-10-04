@@ -51,28 +51,14 @@ Template Name: About Page Template
 								<h3 class="about-name">Brenton Mitchell</h3>
 								<p class="about-title">Lead Facilitation Coach</p>
 							</div>	
-						</li>		
-						<li class="span3">
-							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Karim-Bataineh.png" alt="Karim Bataineh" />
-								<h3 class="about-name">Karim Bataineh</h3>
-								<p class="about-title">Dialogue Recruitment Manager</p>
-							</div>	
-						</li>		
+						</li>			
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Salim-George.png" alt="Salim George" />
 								<h3 class="about-name">Salim George</h3>
 								<p class="about-title">Facilitator Trainer</p>
 							</div>	
-						</li>		
-						<li class="span3">
-							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Maurel-Merette.png" alt="Maurel Merette" />
-								<h3 class="about-name">Maurel Merette</h3>
-								<p class="about-title">Special Programs Coordinator</p>
-							</div>	
-						</li>		
+						</li>			
 					</ul>
 					
 					<ul class="thumbnails">
