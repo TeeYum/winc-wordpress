@@ -43,7 +43,7 @@ this is a stupid change
 					<div class="dots"></div>	
 					<p><a href="http://blog.worldinconversation.org/">WinC News</a></p>	
 					<div class="dots"></div>	
-					<p><a href="https://php.scripts.psu.edu/webaccess/dept/worldinconversation/winc/">Join A Conversation</a></p>	
+					<p><a href="http://www.worldinconversation.org/sorry-closed/">Join A Conversation</a></p>	
 				</div>
 			</div>
 			<div id="splashSocial" class="hide">
