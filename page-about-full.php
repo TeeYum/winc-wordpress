@@ -200,13 +200,20 @@ Template Name: About Page Template
 					</ul>
 					
 					<ul class="thumbnails">
-					<li class="span3">
+						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Shantal-Minoso.png" alt="Shantal Minoso" />
 								<h3 class="about-name">Shantal Minoso</h3>
 								<p class="about-title">Office Intern</p>
 							</div>	
-						</li>		
+						</li>
+						<li class="span3">
+							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/brandon-munroe.png" alt="Brandon Munroe" />
+								<h3 class="about-name">Brandon Munroe</h3>
+								<p class="about-title">Facilitator</p>
+							</div>	
+						</li>
 					</ul>
 				</div> <!-- end #main -->
     
