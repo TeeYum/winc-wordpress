@@ -137,14 +137,7 @@ Template Name: About Page Template
 						</li>		
 					</ul>
 					
-					<ul class="thumbnails">		
-						<li class="span3">
-							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Matt-Houser.png" alt="Matt Houser" />
-								<h3 class="about-name">Matt Houser</h3>
-								<p class="about-title">Facilitator</p>
-							</div>	
-						</li>		
+					<ul class="thumbnails">				
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Nadder-Sholy.png" alt="Nader Sholy" />
@@ -165,17 +158,17 @@ Template Name: About Page Template
 								<h3 class="about-name">Susie Sharaf</h3>
 								<p class="about-title">Facilitator</p>
 							</div>	
-						</li>		
-					</ul>
-					
-					<ul class="thumbnails">
+						</li>	
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Terrance-Dowell.png" alt="Terrance Dowell" />
 								<h3 class="about-name">Terrance Dowell</h3>
 								<p class="about-title">Facilitator</p>
 							</div>	
-						</li>		
+						</li>
+					</ul>
+					
+					<ul class="thumbnails">		
 						<li class="span3">
 							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Shantal-Minoso.png" alt="Shantal Minoso" />
