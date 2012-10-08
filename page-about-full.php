@@ -178,6 +178,13 @@ Template Name: About Page Template
 						</li>
 						<li class="span3">
 							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/julian-haas.png" alt="Julian Haas" />
+								<h3 class="about-name">Julian Haas</h3>
+								<p class="about-title">Facilitator</p>
+							</div>	
+						</li>
+						<li class="span3">
+							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Shantal-Minoso.png" alt="Shantal Minoso" />
 								<h3 class="about-name">Shantal Minoso</h3>
 								<p class="about-title">Office Intern</p>
