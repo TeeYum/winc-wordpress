@@ -209,6 +209,13 @@ Template Name: About Page Template
 						</li>
 						<li class="span3">
 							<div class="thumbnail">
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/laquan-williams.png" alt="LaQuan Williams" />
+								<h3 class="about-name">LaQuan Williams</h3>
+								<p class="about-title">Facilitator</p>
+							</div>	
+						</li>
+						<li class="span3">
+							<div class="thumbnail">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/julio-rodriguez.png" alt="Julio Rodriguez" />
 								<h3 class="about-name">Julio Rodriguez</h3>
 								<p class="about-title">Facilitator</p>
