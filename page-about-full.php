@@ -68,9 +68,9 @@ Template Name: About Page Template
 						</li>	
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/amanda-hommer.png" alt="Amanda Hommer" />
-								<h3 class="about-name">Amanda Hommer</h3>
-								<p class="about-title">Facilitator</p>
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Jenny-Beben.png" alt="Jenny Beben" />
+								<h3 class="about-name">Jenny Beben</h3>
+								<p class="about-title">Commonwealth Campus Program Coordinator</p>
 							</div>	
 						</li>	
 					</ul>
@@ -109,8 +109,8 @@ Template Name: About Page Template
 					<ul class="thumbnails">				
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Jenny-Beben.png" alt="Jenny Beben" />
-								<h3 class="about-name">Jenny Beben</h3>
+							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/amanda-hommer.png" alt="Amanda Hommer" />
+								<h3 class="about-name">Amanda Hommer</h3>
 								<p class="about-title">Facilitator</p>
 							</div>	
 						</li>		
