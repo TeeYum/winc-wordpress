@@ -648,7 +648,7 @@ blockquote.pull-left{
 	position:relative;
 }
 .thumbnail .front{
-	color:purple;	
+	
 }
 .thumbnail .back{
 	width: 200px;
@@ -674,8 +674,8 @@ blockquote.pull-left{
 	opacity: 1;
 	top: -35px;
 	left: -35px;
-	width: 240px;
-	height: 240px;	
+	width: 220px;
+	height: 200px;	
 	overflow: visible;
 }
 
