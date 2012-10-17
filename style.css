@@ -644,6 +644,40 @@ blockquote.pull-left{
 	text-align:center;
 
 }
+.thumbnail.front{
+	color:purple;	
+}
+.thumbnail.back{
+	width: 200px;
+	height: 160px;
+	padding: 10px;
+	background: #2E6F8C;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+	opacity: 0;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	overflow: hidden;
+}
+.thumbnail.back:hover {
+	display: block;
+	opacity: 1;
+	top: -35px;
+	left: -35px;
+	width: 240px;
+	height: 240px;	
+	overflow: visible;
+}
+
+
+
 /* Map Page Styles */
 #map-hero {
 	

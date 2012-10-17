@@ -16,14 +16,19 @@ Template Name: About Page Template
 					<ul class="thumbnails">
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Laurie-Mulvey.png" alt="Laurie Mulvey" />
-								<h3 class="about-name">Laurie Mulvey</h3>
-								<p class="about-title">Executive Director</p>
+								<div class="front">	
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Laurie-Mulvey.png" alt="Laurie Mulvey" />
+									<h3 class="about-name">Laurie Mulvey</h3>
+									<p class="about-title">Executive Director</p>
+								</div>
+								<div class="back">
+									<p>test</p>		
+								</div>	
 							</div>	
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Sam-Richards.png" alt="Sam Richards" />
+								<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Sam-Richards.png" alt="Sam Richards" />
 								<h3 class="about-name">Sam Richards</h3>
 								<p class="about-title">Director of Development</p>
 							</div>	
@@ -37,7 +42,7 @@ Template Name: About Page Template
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Tim-Taylor.png" alt="Tim Taylor" />
+								<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Tim-Taylor.png" alt="Tim Taylor" />
 								<h3 class="about-name">Tim Taylor</h3>
 								<p class="about-title">Operations Manager</p>
 							</div>	
@@ -47,14 +52,14 @@ Template Name: About Page Template
 					<ul class="thumbnails">
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Brenton-Mitchell.png" alt="Brenton Mitchell" />
+								<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Brenton-Mitchell.png" alt="Brenton Mitchell" />
 								<h3 class="about-name">Brenton Mitchell</h3>
 								<p class="about-title">Lead Facilitation Coach</p>
 							</div>	
 						</li>			
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Salim-George.png" alt="Salim George" />
+								<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Salim-George.png" alt="Salim George" />
 								<h3 class="about-name">Salim George</h3>
 								<p class="about-title">Facilitator Trainer</p>
 							</div>	
