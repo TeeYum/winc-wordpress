@@ -644,10 +644,10 @@ blockquote.pull-left{
 	text-align:center;
 
 }
-.thumbnail.front{
+.thumbnail .front{
 	color:purple;	
 }
-.thumbnail.back{
+.thumbnail .back{
 	width: 200px;
 	height: 160px;
 	padding: 10px;
@@ -666,7 +666,7 @@ blockquote.pull-left{
 	-webkit-border-radius: 10px;
 	overflow: hidden;
 }
-.thumbnail.back:hover {
+.thumbnail .back:hover {
 	display: block;
 	opacity: 1;
 	top: -35px;
