@@ -683,10 +683,12 @@ blockquote.pull-left{
 
 .thumbnail .back h3 {
 	color: white !important;
+	text-align:left;
 }
 
 .thumbnail .back p {
 	color: white !important;
+	margin-top:5px;
 }
 
 
