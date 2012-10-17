@@ -679,6 +679,13 @@ blockquote.pull-left{
 	overflow: visible;
 }
 
+.thumbnail .back .h3 {
+	color: white !important;
+}
+
+.thumbnail .back .p {
+	color: white !important;
+}
 
 
 /* Map Page Styles */

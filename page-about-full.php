@@ -22,10 +22,8 @@ Template Name: About Page Template
 									<p class="about-title">Executive Director</p>
 								</div>
 								<div class="back">
-									<h2>Laurie Mulvey</h2>
-									<p>I studied English as an undergraduate at Rutgers, social work at the Master’s level at Rutgers, and Human Development and Family Studies at the doctoral level at Penn State.  I’m not sure what all of that makes me.  But the common denominator seems like it’s always been an attempt to understand people and Life, and to articulate what I discover and what little I can truly know.
-
-The World in Conversation Project (formerly, Race Relations Project) really started the day I sat in a circle with a few teaching assistants for SOC 119 who were leading pilot discussion sections and asked them what was happening in their sections. That informal conversation was the beginning of an endeavor that has been growing and shaping itself for more than fifteen years.  But the conversation that both inspired this Project and transformed my life is the one upon which my marriage is based. That conversation turned me away from law school, from racism and from home–and turned me toward the reason I am actually on this planet. Although I’m always seeking more clarity, I know I love talking and listening to people in a way that makes us both expand and settle into ourselves. I see this as a kind of medicine–which is funny because, when I was a child, I wanted to be a “doctor.” So I guess there is still the desire for “healing” in my bones–and I think healing sometimes exists in this work whether it happens through repairing a relationship, restoring clarity about an issue or generating self-understanding.  With this in mind, I’m always seeking dialogues that “matter” to our individual lives and to the wider world. When a conversation hits that intersection, I know we are on to something important.</p>	
+									<h3 class="about-name">Laurie Mulvey</h3>
+									<p>I studied English as an undergraduate at Rutgers, social work at the Master’s level at Rutgers, and Human Development and Family Studies at the doctoral level at Penn State.  I’m not sure what all of that makes me.  But the common denominator seems like it’s always been an attempt to understand people and Life, and to articulate what I discover.</p>	
 								</div>	
 							</div>	
 						</li>		
