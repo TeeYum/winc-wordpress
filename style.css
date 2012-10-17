@@ -644,6 +644,9 @@ blockquote.pull-left{
 	text-align:center;
 
 }
+#about-main .thumbnail {
+	position:relative;
+}
 .thumbnail .front{
 	color:purple;	
 }
