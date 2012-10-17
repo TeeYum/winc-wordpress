@@ -668,6 +668,7 @@ blockquote.pull-left{
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	overflow: hidden;
+	color:white !important;
 }
 .thumbnail .back:hover {
 	display: block;
@@ -677,13 +678,14 @@ blockquote.pull-left{
 	width: 220px;
 	height: 200px;	
 	overflow: visible;
+	color:white !important;
 }
 
-.thumbnail .back .h3 {
+.thumbnail .back h3 {
 	color: white !important;
 }
 
-.thumbnail .back .p {
+.thumbnail .back p {
 	color: white !important;
 }
 
