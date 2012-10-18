@@ -345,30 +345,54 @@ Template Name: About Page Template
 					<ul class="thumbnails">
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/brandon-munroe.png" alt="Brandon Munroe" />
-								<h3 class="about-name">Brandon Munroe</h3>
-								<p class="about-title">Facilitator</p>
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/brandon-munroe.png" alt="Brandon Munroe" />
+									<h3 class="about-name">Brandon Munroe</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Brandon Munroe</h3>
+									<p>I like talking. I am a junior, sociology, DJ, artist of many varieties from Baltimore and I love cereal. The End.</p>
+								</div>
 							</div>	
 						</li>
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/laquan-williams.png" alt="LaQuan Williams" />
-								<h3 class="about-name">LaQuan Williams</h3>
-								<p class="about-title">Facilitator</p>
+								<div class="target">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/laquan-williams.png" alt="LaQuan Williams" />
+									<h3 class="about-name">LaQuan Williams</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">LaQuan Williams</h3>
+									<p>My love for facilitation stems from a collective interest in the arts. Music has carried me through most of my triumphs through the ability to creatively express. Tattooing has done the same. I believe that without self-expression, we are prone to self-destruction. P.S. with me, expect the unusual!</p>
+								</div>
 							</div>	
 						</li>
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/julio-rodriguez.png" alt="Julio Rodriguez" />
-								<h3 class="about-name">Julio Rodriguez</h3>
-								<p class="about-title">Facilitator</p>
+								<div class="target">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/julio-rodriguez.png" alt="Julio Rodriguez" />
+									<h3 class="about-name">Julio Rodriguez</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Julio Rodriguez</h3>
+									<p>I should really submit a bio.</p>
+								</div>
 							</div>	
 						</li>
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Shantal-Minoso.png" alt="Shantal Minoso" />
-								<h3 class="about-name">Shantal Minoso</h3>
-								<p class="about-title">Office Intern</p>
+								<div class="target">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Shantal-Minoso.png" alt="Shantal Minoso" />
+									<h3 class="about-name">Shantal Minoso</h3>
+									<p class="about-title">Office Intern</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Shantal Minoso</h3>
+									<p>I should really submit a bio.</p>
+								</div>
 							</div>	
 						</li>
 						
