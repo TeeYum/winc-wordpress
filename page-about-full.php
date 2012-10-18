@@ -30,11 +30,11 @@ Template Name: About Page Template
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
-								<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Sam-Richards.png" alt="Sam Richards" />
-								<h3 class="about-name">Sam Richards</h3>
-								<p class="about-title">Director of Development</p>
-							</div>
-							<div class="back">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Sam-Richards.png" alt="Sam Richards" />
+									<h3 class="about-name">Sam Richards</h3>
+									<p class="about-title">Director of Development</p>
+								</div>
+								<div class="back">
 									<h3 class="about-name">Sam Richards</h3>
 									<p>Sam is a sociologist currently working at The Pennsylvania State University. He co-directs the World in Conversation Project, as well as teaches the largest race course in the country with 720 students per semester. Sam's iconoclasm landed him in “The Professors: The 101 Most Dangerous Academics in America,” a book by David Horowitz that critiques the dominance of liberal thinking in academia–which is ironic given that Sam is a registered Libertarian.</p>	
 								</div>
@@ -42,10 +42,10 @@ Template Name: About Page Template
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
-							<div class="front">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/DJ-Seballos.png" alt="DJ Seballos" />
-								<h3 class="about-name">DJ Seballos</h3>
-								<p class="about-title">Assistant Director</p>
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/DJ-Seballos.png" alt="DJ Seballos" />
+									<h3 class="about-name">DJ Seballos</h3>
+									<p class="about-title">Assistant Director</p>
 							</div>
 							<div class="back">
 									<h3 class="about-name">Danna Jayne</h3>
@@ -76,7 +76,7 @@ Template Name: About Page Template
 								<h3 class="about-name">Brenton Mitchell</h3>
 								<p class="about-title">Lead Facilitation Coach</p>
 							</div>
-							div class="back">
+							<div class="back">
 									<h3 class="about-name">Brenton Mitchell</h3>
 									<p>A “Doer of Stuff & Things," Brenton can often be found running on trails in Central PA, singing and playing music on his guitar, and wearing ties. For the past two years, Brenton has been a member of the WinC staff helping to manage the training of the facilitation team. Areas of expertise include developing sustainable models for tracking facilitators professional growth, facilitating dialogues, and dissecting and teaching dialogue facilitation techniques to students.</p>
 								</div>
