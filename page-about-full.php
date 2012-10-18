@@ -42,17 +42,29 @@ Template Name: About Page Template
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
+							<div class="front">
 							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/DJ-Seballos.png" alt="DJ Seballos" />
 								<h3 class="about-name">DJ Seballos</h3>
 								<p class="about-title">Assistant Director</p>
-							</div>	
+							</div>
+							<div class="back">
+									<h3 class="about-name">Danna Jayne</h3>
+									<p>Sam is a sociologist currently working at The Pennsylvania State University. He co-directs the World in Conversation Project, as well as teaches the largest race course in the country with 720 students per semester. Sam's iconoclasm landed him in “The Professors: The 101 Most Dangerous Academics in America,” a book by David Horowitz that critiques the dominance of liberal thinking in academia–which is ironic given that Sam is a registered Libertarian.</p>
+								</div>
+							</div>
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
+							<div class="front">
 								<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Tim-Taylor.png" alt="Tim Taylor" />
 								<h3 class="about-name">Tim Taylor</h3>
 								<p class="about-title">Operations Manager</p>
-							</div>	
+							</div>
+							<div class="back">
+									<h3 class="about-name">Tim Taylor</h3>
+									<p>Born in the Amish capital of Lancaster County and raised on farms and the internet. I have had lifelong passions for technology and people but never really found both in one place until I arrived at the World in Conversation. Today I work with brilliantly talented people committed to exploring their humanity through conversation to make that work both global and innovative. Changing the world one byte at a time!</p>
+								</div>
+							</div>
 						</li>		
 					</ul>
 
