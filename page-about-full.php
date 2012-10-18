@@ -84,10 +84,16 @@ Template Name: About Page Template
 						</li>			
 						<li class="span3">
 							<div class="thumbnail">
-								<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Salim-George.png" alt="Salim George" />
-								<h3 class="about-name">Salim George</h3>
-								<p class="about-title">Facilitator Trainer</p>
-							</div>	
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Salim-George.png" alt="Salim George" />
+									<h3 class="about-name">Salim George</h3>
+									<p class="about-title">Facilitator Trainer</p>
+							</div>
+							<div class="back">
+									<h3 class="about-name">Salim George</h3>
+									<p>I am the bastard son of an immigrant. I work with a team of amazing individuals to design and implement the curriculum for SOC 300 - a class where students are equipped with the fundamental tools and skills necessary to facilitate dialogue.</p>
+								</div>
+							</div>
 						</li>	
 						<li class="span3">
 							<div class="thumbnail">
