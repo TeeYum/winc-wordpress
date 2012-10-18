@@ -32,7 +32,11 @@ Template Name: About Page Template
 								<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Sam-Richards.png" alt="Sam Richards" />
 								<h3 class="about-name">Sam Richards</h3>
 								<p class="about-title">Director of Development</p>
-							</div>	
+							</div>
+							<div class="back">
+									<h3 class="about-name">Sam Richards</h3>
+									<p>I studied English as an undergraduate at Rutgers, social work at the Master’s level at Rutgers, and Human Development and Family Studies at the doctoral level at Penn State.  I’m not sure what all of that makes me.  But the common denominator seems like it’s always been an attempt to understand people and Life, and to articulate what I discover.</p>	
+								</div>
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
