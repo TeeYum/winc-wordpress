@@ -36,7 +36,7 @@ Template Name: About Page Template
 							</div>
 							<div class="back">
 									<h3 class="about-name">Sam Richards</h3>
-									<p>Sam is a sociologist currently working at The Pennsylvania State University. His work focuses on race and ethnicity. He co-directs the World in Conversation Project, as well as teaches the largest race course in the country with 720 students per semester. As a professor he is well known on campus and his iconoclasm landed him in “The Professors: The 101 Most Dangerous Academics in America,” a book published by David Horowitz that critiques the dominance of liberal thinking in the academy–which is ironic given that he is a registered Libertarian. In addition, his TED talk (called a “Radical Experiment in Empathy”) is the third most widely viewed TEDx talk in the world as of May 2011.</p>	
+									<p>Sam is a sociologist currently working at The Pennsylvania State University. His work focuses on race and ethnicity. He co-directs the World in Conversation Project, as well as teaches the largest race course in the country with 720 students per semester. As a professor he is well known on campus and his iconoclasm landed him in “The Professors: The 101 Most Dangerous Academics in America,” a book published by David Horowitz that critiques the dominance of liberal thinking in the academy–which is ironic given that he is a registered Libertarian.</p>	
 								</div>
 							</div>
 						</li>		
