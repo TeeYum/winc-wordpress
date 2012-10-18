@@ -104,7 +104,7 @@ Template Name: About Page Template
 							</div>
 							<div class="back">
 									<h3 class="about-name">Erik Morales</h3>
-									<p>I was born in Moroleon, Guanajuato, Mexico and was brought to the U.S. illegally by my parents at the age of five (no, I am no longer “illegal”). At World In Conversation, my goal is simply to spread awareness about social issues and allow individuals to critically think and reflect on their lives. I believe that when people come together and truly listen to each others' points of view, no matter how different or similar they are, they will develop a better understanding of each other.</p>
+									<p>I was born in Moroleon, Guanajuato, Mexico and was brought to the U.S. illegally by my parents at the age of five (no, I am no longer “illegal”). At WinC, my goal is simply to spread awareness about social issues and allow individuals to critically think and reflect on their lives. I believe that when people come together and truly listen to each others' points of view, no matter how different or similar they are, they will develop a better understanding of each other.</p>
 								</div>
 							</div>
 						</li>	
