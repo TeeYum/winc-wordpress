@@ -673,7 +673,6 @@ blockquote.pull-left{
 .thumbnail .back:hover {
 	display: block;
 	opacity: .75;
-	filter: alpha(opacity=75);
 	top: -10px;
 	left: -10px;
 	width: 220px;
@@ -690,6 +689,10 @@ blockquote.pull-left{
 .thumbnail .back p {
 	color: white !important;
 	margin-top:5px;
+}
+.thumbnail .back .p ontop {
+	position: relative
+	top: -11px;
 }
 
 
