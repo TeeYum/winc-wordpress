@@ -91,16 +91,22 @@ Template Name: About Page Template
 							</div>
 							<div class="back">
 									<h3 class="about-name">Salim George</h3>
-									<p>I am the bastard son of an immigrant. I work with a team of amazing individuals to design and implement the curriculum for SOC 300 - a class where students are equipped with the fundamental tools and skills necessary to facilitate dialogue.</p>
+									<p>I am the bastard son of an immigrant. I also happen to work with a team of amazing individuals to design and implement the curriculum for SOC 300 - a class where students are equipped with the fundamental tools and skills necessary to facilitate dialogue.</p>
 								</div>
 							</div>
 						</li>	
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Erik-Morales.png" alt="Erik Morales" />
-								<h3 class="about-name">Erik Morales</h3>
-								<p class="about-title">SOC 119 Coordinator</p>
-							</div>	
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Erik-Morales.png" alt="Erik Morales" />
+									<h3 class="about-name">Erik Morales</h3>
+									<p class="about-title">SOC 119 Coordinator</p>
+							</div>
+							<div class="back">
+									<h3 class="about-name">Erik Morales</h3>
+									<p>I was born in Moroleon, Guanajuato, Mexico and was brought to the U.S. illegally by my parents at the age of five (no, I am no longer “illegal”). At World In Conversation, my main goal is simply to spread awareness about social issues and allow individuals to critically think and reflect on various aspects of their life. I believe that when people come together and truly listen to each others' points of view, no matter how different or similar they are, they will develop a better understanding of each other.</p>
+								</div>
+							</div>
 						</li>	
 						<li class="span3">
 							<div class="thumbnail">
