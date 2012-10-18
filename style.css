@@ -687,7 +687,7 @@ blockquote.pull-left{
 }
 
 .thumbnail .back p {
-	opacity: 1;
+	opacity: 1 !important;
 	color: white !important;
 	margin-top:5px;
 }
