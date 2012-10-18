@@ -278,7 +278,7 @@ Template Name: About Page Template
 									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Terrance-Dowell.png" alt="Terrance Dowell" />
 									<h3 class="about-name">Terrance Dowell</h3>
 									<p class="about-title">Facilitator</p>
-							</div>
+								</div>
 								<div class="back">
 									<h3 class="about-name">Terrance Dowell</h3>
 									<p>Hello, your friendly neighborhood black guy here! I like dancing, cheesecake, and long walks on the beach. Expressing myself is very important to me, so conversation between people is something I love.</p>
@@ -290,30 +290,54 @@ Template Name: About Page Template
 					<ul class="thumbnails">		
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Nathaniel-peters.png" alt="Nathaniel Peters" />
-								<h3 class="about-name">Nathaniel Peters</h3>
-								<p class="about-title">Facilitators</p>
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Nathaniel-peters.png" alt="Nathaniel Peters" />
+									<h3 class="about-name">Nathaniel Peters</h3>
+									<p class="about-title">Facilitators</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Nathaniel Peters</h3>
+									<p>I communicate most effectively through ideas, emotions and metaphors. I believe that everything can relate to everything, but nothing is the same. I’m generally considered to be just a little bizarre</p>
+								</div>
 							</div>	
 						</li>
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/julian-haas.png" alt="Julian Haas" />
-								<h3 class="about-name">Julian Haas</h3>
-								<p class="about-title">Facilitator</p>
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/julian-haas.png" alt="Julian Haas" />
+									<h3 class="about-name">Julian Haas</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Julian Haas</h3>
+									<p>I should really submit my bio.</p>
+								</div>
 							</div>	
 						</li>
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/devron-lovick.png" alt="Devron Lovick" />
-								<h3 class="about-name">Devron Lovick</h3>
-								<p class="about-title">Facilitator</p>
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/devron-lovick.png" alt="Devron Lovick" />
+									<h3 class="about-name">Devron Lovick</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Devron Lovick</h3>
+									<p>I should really submit my bio.</p>
+								</div>
 							</div>	
 						</li>
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/brigitte-dabbas.png" alt="Brigitte Dabbas" />
-								<h3 class="about-name">Brigitte Dabbas</h3>
-								<p class="about-title">Facilitator</p>
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/brigitte-dabbas.png" alt="Brigitte Dabbas" />
+									<h3 class="about-name">Brigitte Dabbas</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Brigitte Dabbas</h3>
+									<p>I enjoy relaxing, fly fishing, laughing, and having a good time. I would like to experience everything possible while on earth including eating insects. My absolute favorite tv shows are pretty little liars and private practice. Yogurt granola defines who I am.</p>
+								</div>
 							</div>	
 						</li>		
 					</ul>
