@@ -235,30 +235,54 @@ Template Name: About Page Template
 					<ul class="thumbnails">				
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Nadder-Sholy.png" alt="Nader Sholy" />
-								<h3 class="about-name">Nader Sholy</h3>
-								<p class="about-title">Facilitator</p>
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Nadder-Sholy.png" alt="Nader Sholy" />
+									<h3 class="about-name">Nader Sholy</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Nader Sholy</h3>
+									<p>Palestinian Lebanese, Born in Cali. Family lives in Qatar, lived here 18 years. Until I came to Penn State my Big Brother worked for WinC, told me about Soc 119 freshman year & now I work at the project. (Tim only gave me three minutes to write this)</p>
+								</div>
 							</div>	
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Rob-Lai.png" alt="Rob Lai" />
-								<h3 class="about-name">Rob Lai</h3>
-								<p class="about-title">Facilitator</p>
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Rob-Lai.png" alt="Rob Lai" />
+									<h3 class="about-name">Rob Lai</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Rob Lai</h3>
+									<p>I am Robert, I am the purveyor of puns. I am the apprentice of the arts. I wander through this world watching for nothing more than welcoming weirdos. I am Robert.</p>
+								</div>
 							</div>	
 						</li>
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Susie-Sharaf.png" alt="Susie Sharaf" />
-								<h3 class="about-name">Susie Sharaf</h3>
-								<p class="about-title">Facilitator</p>
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Susie-Sharaf.png" alt="Susie Sharaf" />
+									<h3 class="about-name">Susie Sharaf</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Susie Sharaf</h3>
+									<p>I should really submit my bio.</p>
+								</div>
 							</div>	
 						</li>	
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Terrance-Dowell.png" alt="Terrance Dowell" />
-								<h3 class="about-name">Terrance Dowell</h3>
-								<p class="about-title">Facilitator</p>
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Terrance-Dowell.png" alt="Terrance Dowell" />
+									<h3 class="about-name">Terrance Dowell</h3>
+									<p class="about-title">Facilitator</p>
+							</div>
+								<div class="back">
+									<h3 class="about-name">Terrance Dowell</h3>
+									<p>Hello, your friendly neighborhood black guy here! I like dancing, cheesecake, and long walks on the beach. Expressing myself is very important to me, so conversation between people is something I love.</p>
+								</div>
 							</div>	
 						</li>
 					</ul>
