@@ -110,9 +110,14 @@ Template Name: About Page Template
 						</li>	
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Jenny-Beben.png" alt="Jenny Beben" />
-								<h3 class="about-name">Jenny Beben</h3>
-								<p class="about-title">Commonwealth Campus Program Coordinator</p>
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Jenny-Beben.png" alt="Jenny Beben" />
+									<h3 class="about-name">Jenny Beben</h3>
+									<p class="about-title">Commonwealth Campus Program Coordinator</p>
+							<div class="back">
+									<h3 class="about-name">Jenny Beben</h3>
+									<p>I was born in 1990 to two proud parents. I love good coffee, good conversation, crazy random encounters, and traveling the world. For WinC, I manage the coordination for all programs with Commonwealth Campuses all across PA</p>
+								</div>
 							</div>	
 						</li>	
 					</ul>
