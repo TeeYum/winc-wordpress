@@ -672,7 +672,7 @@ blockquote.pull-left{
 }
 .thumbnail .back:hover {
 	display: block;
-	opacity: .7;
+	opacity: .75;
 	top: -10px;
 	left: -10px;
 	width: 220px;
