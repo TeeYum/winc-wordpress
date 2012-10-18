@@ -78,7 +78,7 @@ Template Name: About Page Template
 							</div>
 							<div class="back">
 									<h3 class="about-name">Brenton Mitchell</h3>
-									<p>A “Doer of Stuff & Things," Brenton can often be found running on trails in Central PA, singing and playing music on his guitar, and wearing ties. For the past two years, Brenton has been a member of the WinC staff helping to manage the training of the facilitation team. Areas of expertise include developing sustainable models for tracking facilitators professional growth, facilitating dialogues, and dissecting and teaching dialogue facilitation techniques to students.</p>
+									<p>A “Doer of Stuff & Things," Brenton can often be found running on trails in Central PA, singing and playing music on his guitar, and wearing ties. For the past two years, Brenton has been helping to manage the training of the WinC facilitation team. Areas of expertise include developing sustainable models for tracking facilitators professional growth, facilitating dialogues, and dissecting and teaching dialogue facilitation techniques to students.</p>
 								</div>
 							</div>
 						</li>			
