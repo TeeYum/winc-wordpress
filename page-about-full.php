@@ -193,7 +193,7 @@ Template Name: About Page Template
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
-								<div class="front"
+								<div class="front">
 									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Justin-Sova.png" alt="Justin Sova" />
 									<h3 class="about-name">Justin Sova</h3>
 									<p class="about-title">Facilitator</p>
@@ -206,7 +206,7 @@ Template Name: About Page Template
 						</li>
 						<li class="span3">
 							<div class="thumbnail">
-								<div class="front"
+								<div class="front">
 									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Khaylon-Blackeney.png" alt="Khaylon Blackeney" />
 									<h3 class="about-name">Khalon Blakeney</h3>
 									<p class="about-title">Facilitator</p>
