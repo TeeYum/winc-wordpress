@@ -180,30 +180,54 @@ Template Name: About Page Template
 					<ul class="thumbnails">				
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/amanda-hommer.png" alt="Amanda Hommer" />
-								<h3 class="about-name">Amanda Hommer</h3>
-								<p class="about-title">Facilitator</p>
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/amanda-hommer.png" alt="Amanda Hommer" />
+									<h3 class="about-name">Amanda Hommer</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Amanda Hommer</h3>
+									<p>I’m kind of a big deal.</p>
+								</div>
 							</div>	
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Justin-Sova.png" alt="Justin Sova" />
-								<h3 class="about-name">Justin Sova</h3>
-								<p class="about-title">Facilitator</p>
+								<div class="front"
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Justin-Sova.png" alt="Justin Sova" />
+									<h3 class="about-name">Justin Sova</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Justin Sova</h3>
+									<p>I live drums. I don’t know what to say, but you lost the game.</p>
+								</div>
 							</div>	
 						</li>
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Khaylon-Blackeney.png" alt="Khaylon Blackeney" />
-								<h3 class="about-name">Khalon Blakeney</h3>
-								<p class="about-title">Facilitator</p>
+								<div class="front"
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Khaylon-Blackeney.png" alt="Khaylon Blackeney" />
+									<h3 class="about-name">Khalon Blakeney</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Khalon Blakeney</h3>
+									<p>Passionate about meeting new people, elated to learn new things, love to create new memories.</p>
+								</div>
 							</div>	
 						</li>
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Matt-Houser.png" alt="Matt Houser" />
-								<h3 class="about-name">Matt Houser</h3>
-								<p class="about-title">Facilitator</p>
+								<div class"front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Matt-Houser.png" alt="Matt Houser" />
+									<h3 class="about-name">Matt Houser</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Matt Houser</h3>
+									<p>I was born on a small farm in Centre County 21 years ago. I grew up learning to love my time outside and now find my happiness in the outdoors. I now also enjoy my studies in school which focus on how people relate to one another through farming and food. </p>
+								</div>
 							</div>	
 						</li>		
 					</ul>
