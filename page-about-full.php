@@ -125,30 +125,54 @@ Template Name: About Page Template
 					<ul class="thumbnails">			
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Ben-Jumonville.png" alt="Ben Jumonville" />
-								<h3 class="about-name">Ben Jumonville</h3>
-								<p class="about-title">Facilitator</p>
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Ben-Jumonville.png" alt="Ben Jumonville" />
+									<h3 class="about-name">Ben Jumonville</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Ben Jumonville</h3>
+									<p>I like the words conversate, religiosity, and comfortability, even though they aren’t words.</p>
+								</div>
 							</div>	
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Carley-Cubit.png" alt="Carly Cubit" />
-								<h3 class="about-name">Carly Cubit</h3>
-								<p class="about-title">Facilitator</p>
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Carley-Cubit.png" alt="Carly Cubit" />
+									<h3 class="about-name">Carly Cubit</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Carly Cubit</h3>
+									<p>Junior, Kinesiology major. Interested in becoming a doctor. I live the idea of helping people whether it’s with health or dialogue...I also enjoy rowing boats and baking cookies and I hate writing a quick blurb about myself.</p>
+								</div>
 							</div>	
 						</li>		
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Chad-Littlefield.png" alt="Chad Littlefield" />
-								<h3 class="about-name">Chad Littlefield</h3>
-								<p class="about-title">Facilitator</p>
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Chad-Littlefield.png" alt="Chad Littlefield" />
+									<h3 class="about-name">Chad Littlefield</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Chad Littlefield</h3>
+									<p>Connecting people through conversation is what I enjoy doing Monday through Sunday. #poop</p>
+								</div>
 							</div>	
 						</li>	
 						<li class="span3">
 							<div class="thumbnail">
-							<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Corinne-Lewin.png" alt="Corinne Lewin" />
-								<h3 class="about-name">Corinne Lewin</h3>
-								<p class="about-title">Facilitator</p>
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Corinne-Lewin.png" alt="Corinne Lewin" />
+									<h3 class="about-name">Corinne Lewin</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Corinne Lewin</h3>
+									<p>I’m Corinne, a junior from Princeton Jct., NJ. I’m a hair bow aficionado. A citizen of earth and a certified blast.</p>
+								</div>
 							</div>	
 						</li>	
 					</ul>
