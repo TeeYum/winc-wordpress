@@ -126,13 +126,13 @@ Template Name: About Page Template
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Ben-Jumonville.png" alt="Ben Jumonville" />
-									<h3 class="about-name">Ben Jumonville</h3>
-									<p class="about-title">Facilitator</p>
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/will-wise.png" alt="Will Wise" />
+									<h3 class="about-name">Will Wise</h3>
+									<p class="about-title">Facilitation Trainer</p>
 								</div>
 								<div class="back">
-									<h3 class="about-name">Ben Jumonville</h3>
-									<p>I like the words conversate, religiosity, and comfortability, even though they aren’t words.</p>
+									<h3 class="about-name">Will Wise</h3>
+									<p>I should really submit a bio.</p>
 								</div>
 							</div>	
 						</li>		
@@ -381,7 +381,22 @@ Template Name: About Page Template
 									<p>I should really submit a bio.</p>
 								</div>
 							</div>	
+						</li>		
+						<li class="span3">
+							<div class="thumbnail">
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Ben-Jumonville.png" alt="Ben Jumonville" />
+									<h3 class="about-name">Ben Jumonville</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Ben Jumonville</h3>
+									<p>I like the words conversate, religiosity, and comfortability, even though they aren’t words.</p>
+								</div>
+							</div>	
 						</li>
+					</ul>
+					<ul class="thumbnails">			
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="target">
@@ -395,8 +410,6 @@ Template Name: About Page Template
 								</div>
 							</div>	
 						</li>
-						
-					</ul>
 				</div> <!-- end #main -->
     
 				<?php //get_sidebar(); // sidebar 1 ?>
