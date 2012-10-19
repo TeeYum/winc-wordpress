@@ -128,7 +128,7 @@ Template Name: About Page Template
 								<div class="front">
 									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/will-wise.png" alt="Will Wise" />
 									<h3 class="about-name">Will Wise</h3>
-									<p class="about-title">Facilitation Trainer</p>
+									<p class="about-title">Senior Facilitation Trainer</p>
 								</div>
 								<div class="back">
 									<h3 class="about-name">Will Wise</h3>
