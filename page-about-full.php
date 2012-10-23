@@ -410,6 +410,19 @@ Template Name: About Page Template
 								</div>
 							</div>	
 						</li>
+						<li class="span3">
+							<div class="thumbnail">
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/nick-sikoutris.png" alt="Nick Sikoutris" />
+									<h3 class="about-name">Nick Sikoutris</h3>
+									<p class="about-title">Office Intern</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Nick Sikoutris</h3>
+									<p>I am a Junior studying Public Relations and Minoring in Sociology.  I've never broken a bone and in my free time I like to Scuba dive.</p>
+								</div>
+							</div>	
+						</li>
 				</div> <!-- end #main -->
     
 				<?php //get_sidebar(); // sidebar 1 ?>
