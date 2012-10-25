@@ -49,7 +49,7 @@ Template Name: About Page Template
 							</div>
 							<div class="back">
 									<h3 class="about-name">Danna Jayne</h3>
-									<p>Sam is a sociologist currently working at The Pennsylvania State University. He co-directs the World in Conversation Project, as well as teaches the largest race course in the country with 720 students per semester. Sam's iconoclasm landed him in “The Professors: The 101 Most Dangerous Academics in America,” a book by David Horowitz that critiques the dominance of liberal thinking in academia–which is ironic given that Sam is a registered Libertarian.</p>
+									<p>At WinC, I help get the right people in the right places within our organization. I have worked to create a place where people act on their passions and earn a living.  A while back, someone gave me the opportunity to follow my passion here and I believe that such trust inspired me to work my a** off to make IT happen.  This is at the heart of our work place and I apply it to OUR effervescent need to move with the changing times.</p>
 								</div>
 							</div>
 						</li>		
