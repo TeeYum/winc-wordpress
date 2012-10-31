@@ -10,7 +10,7 @@ Template Name: WinC Gender Room
 			
 				<div id="main" class="span12 clearfix well dropShadow" role="main">
 
-					<iframe width="100%" height="100%" src="http://meetings.io/wincgender" frameborder="0" allowfullscreen></iframe>
+					<iframe width="100%" height="1000px" src="http://meetings.io/wincgender" frameborder="0" allowfullscreen></iframe>
 
 				</div> <!-- end #main -->
     
