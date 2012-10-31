@@ -9,6 +9,7 @@ Template Name: Full Width Page
 			<div id="content" class="clearfix row-fluid">
 			
 				<div id="main" class="span12 clearfix well dropShadow" role="main">
+					<iframe width="100%" height="100%" src="http://meetings.io/wincgender" frameborder="0" allowfullscreen></iframe>
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
