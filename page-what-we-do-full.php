@@ -8,7 +8,7 @@ Template Name: What We Do
 			
 			<div id="content" class="clearfix row-fluid">
 				<div id="whatwedo-main" class="span12 well dropShadow" >
-					<img src="<?php bloginfo('template_directory'); ?>/images/whatwedo-top.png" alt="What We Do" style="margin-left:30px;" />
+					<img src="<?php bloginfo('template_directory'); ?>/images/whatwedo-topfinal.png" alt="What We Do" style="margin-left:30px;" />
 				</div>
 			<div id="content" class="clearfix row-fluid">
 				<div id="whatwedo-main" class="span12 well dropShadow" >
