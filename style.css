@@ -81,7 +81,7 @@ body.admin-bar .navbar-fixed-top{
 }
 
 .navbar-inner{
-	background: url(images/header.png) repeat !important;
+	background: url(images/header.png) repeat-x !important;
 	min-height: 65px !important;
 	box-shadow:0 0 0 !important; 
 	-moz-box-shadow:0 0 0 !important;
