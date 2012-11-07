@@ -93,7 +93,7 @@
 				<div class="navbar navbar-fixed-top">
 					<div class="navbar-inner">
 						<div>
-							<a><img class="alignleft" src="http://s9.postimage.org/za93tq567/PSUGrey.png" alt="Test Logo" alt width="180" height="60" /></a>
+							<a><img class="alignleft" src="http://s9.postimage.org/za93tq567/PSUGrey.png" alt="Test Logo" alt width="170" height="65" /></a>
 						</div>
 						<div class="container-fluid nav-container">
 								<nav role="navigation">
