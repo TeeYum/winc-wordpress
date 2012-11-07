@@ -92,22 +92,24 @@
 				
 				<div class="navbar navbar-fixed-top">
 					<div class="navbar-inner">
-						<a><img class="alignleft" src="http://s9.postimage.org/za93tq567/PSUGrey.png" alt="Test Logo" alt width="100" height="75" /></a>
+						<div>
+							<a><img class="alignleft" src="http://s9.postimage.org/za93tq567/PSUGrey.png" alt="Test Logo" alt width="200" height="50" /></a>
+						</div>
 						<div class="container-fluid nav-container">
-							<nav role="navigation">
-								<a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo-header-2.png" alt="World In Conversation" /></a>
+								<nav role="navigation">
+									<a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo-header-2.png" alt="World In Conversation" /></a>
 								
-								<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-							        <span class="icon-bar"></span>
-							        <span class="icon-bar"></span>
-							        <span class="icon-bar"></span>
-								</a>
+									<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+							        	<span class="icon-bar"></span>
+							        	<span class="icon-bar"></span>
+							        	<span class="icon-bar"></span>
+									</a>
 								
 								<div class="nav-collapse pull-right">
 									<?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
 								</div>
 								
-							</nav>
+								</nav>
 							
 							<?php if(of_get_option('search_bar', '1')) {?>
 							<form class="navbar-search pull-right" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
