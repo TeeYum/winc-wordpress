@@ -92,7 +92,7 @@
 				
 				<div class="navbar navbar-fixed-top">
 					<div class="navbar-inner">
-						<a><img src="http://s9.postimage.org/za93tq567/PSUGrey.png" alt="Test Logo" /></a>
+						<a><img class="alignleft" src="http://s9.postimage.org/za93tq567/PSUGrey.png" alt="Test Logo" alt width="100" height="75" /></a>
 						<div class="container-fluid nav-container">
 							<nav role="navigation">
 								<a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo-header-2.png" alt="World In Conversation" /></a>
