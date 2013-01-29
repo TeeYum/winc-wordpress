@@ -135,7 +135,20 @@ Template Name: About Page Template
 									<p>I should really submit a bio.</p>
 								</div>
 							</div>	
-						</li>		
+						</li>	
+						<li class="span3">
+							<div class="thumbnail">
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Chad-Littlefield.png" alt="Chad Littlefield" />
+									<h3 class="about-name">Chad Littlefield</h3>
+									<p class="about-title">International Dialogue Coordinator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Chad Littlefield</h3>
+									<p>Connecting people through conversation is what I enjoy doing Monday through Sunday. #poop</p>
+								</div>
+							</div>	
+						</li>	
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
@@ -149,19 +162,6 @@ Template Name: About Page Template
 								</div>
 							</div>	
 						</li>		
-						<li class="span3">
-							<div class="thumbnail">
-								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Chad-Littlefield.png" alt="Chad Littlefield" />
-									<h3 class="about-name">Chad Littlefield</h3>
-									<p class="about-title">Facilitator</p>
-								</div>
-								<div class="back">
-									<h3 class="about-name">Chad Littlefield</h3>
-									<p>Connecting people through conversation is what I enjoy doing Monday through Sunday. #poop</p>
-								</div>
-							</div>	
-						</li>	
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
