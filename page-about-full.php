@@ -161,23 +161,7 @@ Template Name: About Page Template
 									<p>Junior, Kinesiology major. Interested in becoming a doctor. I live the idea of helping people whether it’s with health or dialogue...I also enjoy rowing boats and baking cookies and I hate writing a quick blurb about myself.</p>
 								</div>
 							</div>	
-						</li>		
-						<li class="span3">
-							<div class="thumbnail">
-								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Corinne-Lewin.png" alt="Corinne Lewin" />
-									<h3 class="about-name">Corinne Lewin</h3>
-									<p class="about-title">Facilitator</p>
-								</div>
-								<div class="back">
-									<h3 class="about-name">Corinne Lewin</h3>
-									<p>I’m Corinne, a junior from Princeton Jct., NJ. I’m a hair bow aficionado. A citizen of earth and a certified blast.</p>
-								</div>
-							</div>	
 						</li>	
-					</ul>
-					
-					<ul class="thumbnails">				
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
@@ -190,7 +174,11 @@ Template Name: About Page Template
 									<p>I’m kind of a big deal.</p>
 								</div>
 							</div>	
-						</li>		
+						</li>	
+
+					</ul>
+					
+					<ul class="thumbnails">				
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
@@ -229,10 +217,7 @@ Template Name: About Page Template
 									<p>I was born on a small farm in Centre County 21 years ago. I grew up learning to love my time outside and now find my happiness in the outdoors. I now also enjoy my studies in school which focus on how people relate to one another through farming and food. </p>
 								</div>
 							</div>	
-						</li>		
-					</ul>
-					
-					<ul class="thumbnails">				
+						</li>	
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
@@ -246,19 +231,9 @@ Template Name: About Page Template
 								</div>
 							</div>	
 						</li>		
-						<li class="span3">
-							<div class="thumbnail">
-								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Rob-Lai.png" alt="Rob Lai" />
-									<h3 class="about-name">Rob Lai</h3>
-									<p class="about-title">Facilitator</p>
-								</div>
-								<div class="back">
-									<h3 class="about-name">Rob Lai</h3>
-									<p>I am Robert, I am the purveyor of puns. I am the apprentice of the arts. I wander through this world watching for nothing more than welcoming weirdos. I am Robert.</p>
-								</div>
-							</div>	
-						</li>
+					</ul>
+					
+					<ul class="thumbnails">					
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
@@ -268,48 +243,6 @@ Template Name: About Page Template
 								</div>
 								<div class="back">
 									<h3 class="about-name">Susie Sharaf</h3>
-									<p>I should really submit my bio.</p>
-								</div>
-							</div>	
-						</li>	
-						<li class="span3">
-							<div class="thumbnail">
-								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Terrance-Dowell.png" alt="Terrance Dowell" />
-									<h3 class="about-name">Terrance Dowell</h3>
-									<p class="about-title">Facilitator</p>
-								</div>
-								<div class="back">
-									<h3 class="about-name">Terrance Dowell</h3>
-									<p>Hello, your friendly neighborhood black guy here! I like dancing, cheesecake, and long walks on the beach. Expressing myself is very important to me, so conversation between people is something I love.</p>
-								</div>
-							</div>	
-						</li>
-					</ul>
-					
-					<ul class="thumbnails">		
-						<li class="span3">
-							<div class="thumbnail">
-								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Nathaniel-peters.png" alt="Nathaniel Peters" />
-									<h3 class="about-name">Nathaniel Peters</h3>
-									<p class="about-title">Facilitators</p>
-								</div>
-								<div class="back">
-									<h3 class="about-name">Nathaniel Peters</h3>
-									<p>I communicate most effectively through ideas, emotions and metaphors. I believe that everything can relate to everything, but nothing is the same. I’m generally considered to be just a little bizarre</p>
-								</div>
-							</div>	
-						</li>
-						<li class="span3">
-							<div class="thumbnail">
-								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/julian-haas.png" alt="Julian Haas" />
-									<h3 class="about-name">Julian Haas</h3>
-									<p class="about-title">Facilitator</p>
-								</div>
-								<div class="back">
-									<h3 class="about-name">Julian Haas</h3>
 									<p>I should really submit my bio.</p>
 								</div>
 							</div>	
@@ -326,7 +259,7 @@ Template Name: About Page Template
 									<p>I should really submit my bio.</p>
 								</div>
 							</div>	
-						</li>
+						</li>	
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
@@ -339,10 +272,7 @@ Template Name: About Page Template
 									<p>I enjoy relaxing, fly fishing, laughing, and having a good time. I would like to experience everything possible while on earth including eating insects. My absolute favorite tv shows are pretty little liars and private practice. Yogurt granola defines who I am.</p>
 								</div>
 							</div>	
-						</li>		
-					</ul>
-					
-					<ul class="thumbnails">
+						</li>	
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
@@ -356,7 +286,10 @@ Template Name: About Page Template
 								</div>
 							</div>	
 						</li>
-						<li class="span3">
+					</ul>
+					
+					<ul class="thumbnails">		
+                       <li class="span3">
 							<div class="thumbnail">
 								<div class="target">
 									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/laquan-williams.png" alt="LaQuan Williams" />
@@ -381,22 +314,7 @@ Template Name: About Page Template
 									<p>I should really submit a bio.</p>
 								</div>
 							</div>	
-						</li>		
-						<li class="span3">
-							<div class="thumbnail">
-								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Ben-Jumonville.png" alt="Ben Jumonville" />
-									<h3 class="about-name">Ben Jumonville</h3>
-									<p class="about-title">Facilitator</p>
-								</div>
-								<div class="back">
-									<h3 class="about-name">Ben Jumonville</h3>
-									<p>I like the words conversate, religiosity, and comfortability, even though they aren’t words.</p>
-								</div>
-							</div>	
 						</li>
-					</ul>
-					<ul class="thumbnails">			
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="target">
@@ -423,6 +341,14 @@ Template Name: About Page Template
 								</div>
 							</div>	
 						</li>
+	
+					</ul>
+					
+					<ul class="thumbnails">
+					</ul>
+					<ul class="thumbnails">			
+						
+						
 				</div> <!-- end #main -->
     
 				<?php //get_sidebar(); // sidebar 1 ?>
