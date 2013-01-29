@@ -182,19 +182,6 @@ Template Name: About Page Template
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Justin-Sova.png" alt="Justin Sova" />
-									<h3 class="about-name">Justin Sova</h3>
-									<p class="about-title">Facilitator</p>
-								</div>
-								<div class="back">
-									<h3 class="about-name">Justin Sova</h3>
-									<p>I live drums. I don’t know what to say, but you lost the game.</p>
-								</div>
-							</div>	
-						</li>
-						<li class="span3">
-							<div class="thumbnail">
-								<div class="front">
 									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Khaylon-Blackeney.png" alt="Khaylon Blackeney" />
 									<h3 class="about-name">Khalon Blakeney</h3>
 									<p class="about-title">Facilitator</p>
@@ -230,10 +217,7 @@ Template Name: About Page Template
 									<p>Palestinian Lebanese, Born in Cali. Family lives in Qatar, lived here 18 years. Until I came to Penn State my Big Brother worked for WinC, told me about Soc 119 freshman year & now I work at the project. (Tim only gave me three minutes to write this)</p>
 								</div>
 							</div>	
-						</li>		
-					</ul>
-					
-					<ul class="thumbnails">					
+						</li>	
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
@@ -246,7 +230,10 @@ Template Name: About Page Template
 									<p>I should really submit my bio.</p>
 								</div>
 							</div>	
-						</li>
+						</li>	
+					</ul>
+					
+					<ul class="thumbnails">					
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
@@ -286,10 +273,7 @@ Template Name: About Page Template
 								</div>
 							</div>	
 						</li>
-					</ul>
-					
-					<ul class="thumbnails">		
-                       <li class="span3">
+						<li class="span3">
 							<div class="thumbnail">
 								<div class="target">
 									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/laquan-williams.png" alt="LaQuan Williams" />
@@ -302,6 +286,9 @@ Template Name: About Page Template
 								</div>
 							</div>	
 						</li>
+					</ul>
+					
+					<ul class="thumbnails">		
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="target">
@@ -320,7 +307,7 @@ Template Name: About Page Template
 								<div class="target">
 									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Shantal-Minoso.png" alt="Shantal Minoso" />
 									<h3 class="about-name">Shantal Minoso</h3>
-									<p class="about-title">Office Intern</p>
+									<p class="about-title">Facilitator</p>
 								</div>
 								<div class="back">
 									<h3 class="about-name">Shantal Minoso</h3>
@@ -338,6 +325,19 @@ Template Name: About Page Template
 								<div class="back">
 									<h3 class="about-name">Nick Sikoutris</h3>
 									<p>I am a Junior studying Public Relations and Minoring in Sociology.  I've never broken a bone and in my free time I like to Scuba dive.</p>
+								</div>
+							</div>	
+						</li>
+						<li class="span3">
+							<div class="thumbnail">
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Justin-Sova.png" alt="Justin Sova" />
+									<h3 class="about-name">Justin Sova</h3>
+									<p class="about-title">IT Assistant</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Justin Sova</h3>
+									<p>I live drums. I don’t know what to say, but you lost the game.</p>
 								</div>
 							</div>	
 						</li>
