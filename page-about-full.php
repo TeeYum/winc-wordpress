@@ -32,7 +32,7 @@ Template Name: About Page Template
 								<div class="front">
 									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Sam-Richards.png" alt="Sam Richards" />
 									<h3 class="about-name">Sam Richards</h3>
-									<p class="about-title">Director of Development</p>
+									<p class="about-title">Co-Founder</p>
 								</div>
 								<div class="back">
 									<h3 class="about-name">Sam Richards</h3>
@@ -100,7 +100,7 @@ Template Name: About Page Template
 								<div class="front">
 									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Erik-Morales.png" alt="Erik Morales" />
 									<h3 class="about-name">Erik Morales</h3>
-									<p class="about-title">SOC 119 Coordinator</p>
+									<p class="about-title">Office Manager</p>
 							</div>
 							<div class="back">
 									<h3 class="about-name">Erik Morales</h3>
