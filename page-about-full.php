@@ -316,6 +316,64 @@ Template Name: About Page Template
 							</div>	
 						</li>
 						<li class="span3">
+							<div class="thumbnail">
+								<div class="target">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/nicollette-airhart.png" alt="Nicollette Airhart" />
+									<h3 class="about-name">Nicollette Airhart</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Nicolette Airhart</h3>
+									<p>Born and raised in Massillan, Ohio. I'm a crime, law & justice major and this is my third semester at winc. I love cheese :)</p>
+								</div>
+							</div>	
+						</li>
+						<li class="span3">
+							<div class="thumbnail">
+								<div class="target">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/hamzeh-feddah.png" alt="Hamzeh Feddah" />
+									<h3 class="about-name">Hamzeh Feddah</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Hamzeh Feddah</h3>
+									<p>My name is Hamzeh. I'm originally from Amman, Jordan. I moved to the states after graduating from high school to gain a greater base of knowledge and different people in life.</p>
+								</div>
+							</div>	
+						</li>
+					</ul>
+					
+					<ul class="thumbnails">
+						<li class="span3">
+						<div class="thumbnail">
+							<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/luke-lenker.png" alt="Luke Lenker" />
+									<h3 class="about-name">Luke Lenker</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Luke Lenker</h3>
+									<p>Luke, I began work at WinC in 2013 & found it’s satisfying for me & my soul! I hope to be a valuable & unique addition to this truly awe-inspiring organization!</p>
+								</div>
+							</div>	
+						</li>
+						<li class="span3">
+							<div class="thumbnail">
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/hala-alhashmi.png" alt="Hala Al-Hashmi" />
+									<h3 class="about-name">Hala Al-Hashmi</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Hala Al-Hashmi</h3>
+									<p>I'm a Saudi Arabian Finance student. I have just started working with WinC & hope to do it for a long time. Food from home is the best! Try it!</p>
+								</div>
+							</div>	
+						</li>
+					</ul>
+					
+					<ul class="thumbnails">
+						<li class="span3">
 						<div class="thumbnail">
 							<div class="front">
 									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/nick-sikoutris.png" alt="Nick Sikoutris" />
@@ -341,10 +399,6 @@ Template Name: About Page Template
 								</div>
 							</div>	
 						</li>
-					</ul>
-					
-					
-					<ul class="thumbnails">
 					</ul>
 					<ul class="thumbnails">		
 
