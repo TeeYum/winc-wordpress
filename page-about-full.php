@@ -116,7 +116,7 @@ Template Name: About Page Template
 									<p class="about-title">Commonwealth Campus Program Coordinator</p>
 							<div class="back">
 									<h3 class="about-name">Jenny Beben</h3>
-									<p>I was born in 1990 to two proud parents. I love good coffee, good conversation, crazy random encounters, and traveling the world. For WinC, I manage the coordination for all programs with Commonwealth Campuses all across PA.</p>
+									<p>I joined this work in the "spirit of questing". I set out on a journey toward a bigger goal & have found out things about myself in the process.  I am from middle of amishtown PA and I love ward beverages & conversations.</p>
 								</div>
 							</div>	
 						</li>	
@@ -132,7 +132,7 @@ Template Name: About Page Template
 								</div>
 								<div class="back">
 									<h3 class="about-name">Will Wise</h3>
-									<p>I should really submit a bio.</p>
+									<p>Lets talk about any taboo subject.  You pick.  When we talk and I truly listen, I have a better understanding of the world.  I love to train facilitators to walk in a room full of strangers and talk about taboo subjects with no agenda.  You game?</p>
 								</div>
 							</div>	
 						</li>	
@@ -269,7 +269,7 @@ Template Name: About Page Template
 								</div>
 								<div class="back">
 									<h3 class="about-name">Brandon Munroe</h3>
-									<p>I like talking. I am a junior, sociology, DJ, artist of many varieties from Baltimore and I love cereal. The End.</p>
+									<p>Baltimore, MD. I like funnel cake. And I'm a soc major.</p>
 								</div>
 							</div>	
 						</li>
@@ -298,7 +298,7 @@ Template Name: About Page Template
 								</div>
 								<div class="back">
 									<h3 class="about-name">Julio Rodriguez</h3>
-									<p>I should really submit a bio.</p>
+									<p>On the pursuit of happiness...</p>
 								</div>
 							</div>		
 						</li>
@@ -311,7 +311,7 @@ Template Name: About Page Template
 								</div>
 								<div class="back">
 									<h3 class="about-name">Shantal Minoso</h3>
-									<p>I should really submit a bio.</p>
+									<p>Hi I'm Shantal and I'm cool. Home: Westchester, NY. First semester in WinC</p>
 								</div>
 							</div>	
 						</li>
@@ -370,9 +370,77 @@ Template Name: About Page Template
 								</div>
 							</div>	
 						</li>
+						<li class="span3">
+							<div class="thumbnail">
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/annie-tamalavage.png" alt="Annie Tamalavage" />
+									<h3 class="about-name">Annie Tamalavage</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Annie Tamalavage</h3>
+									<p>Pottsville, PA. Favorite Food: Guacamole.  Just started at WinC. I'm super spunky</p>
+								</div>
+							</div>	
+						</li>
+					</ul>
+
+					<ul class="thumbnails">
+						<li class="span3">
+						<div class="thumbnail">
+							<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/madyson-nucci.png" alt="Madyson Nucci" />
+									<h3 class="about-name">Madyson Nucci</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Madyson Nucci</h3>
+									<p>From Long Branch, NJ. Could live off of sushi. Love all (good) music and the beach. Want to eventually move to Israel</p>
+								</div>
+							</div>	
+						</li>
+						<li class="span3">
+							<div class="thumbnail">
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/belkis-prutzman.png" alt="Belkis Prutzman" />
+									<h3 class="about-name">Belkis Prutzman</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Belkis Prutzman</h3>
+									<p>I am 20 years old. I was born in the Dominican Republic. I like to dance, cook, and eat. I married the love of my life May 31 2012.</p>
+								</div>
+							</div>	
+						</li>
+						<li class="span3">
+							<div class="thumbnail">
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/jd-mccausland.png" alt="JD McCausland" />
+									<h3 class="about-name">JD McCausland</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">JD McCausland</h3>
+									<p>JD is a first year facilitator. He is currently living the dream.</p>
+								</div>
+							</div>	
+						</li>
 					</ul>
 					
 					<ul class="thumbnails">
+						<li class="span3">
+							<div class="thumbnail">
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/carl-jeanlouis.png" alt="Carl Jean-Louis" />
+									<h3 class="about-name">Carl Jean-Louis</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Carl Jean-Louis</h3>
+									<p>I'm a Sophomore studying Industrial Engineering. I'm from Haiti and have been working with WinC for a semester now.</p>
+								</div>
+							</div>	
+						</li>
 						<li class="span3">
 						<div class="thumbnail">
 							<div class="front">
