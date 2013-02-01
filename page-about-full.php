@@ -116,7 +116,7 @@ Template Name: About Page Template
 									<p class="about-title">Commonwealth Campus Program Coordinator</p>
 							<div class="back">
 									<h3 class="about-name">Jenny Beben</h3>
-									<p>I joined this work in the "spirit of questing". I set out on a journey toward a bigger goal & have found out things about myself in the process.  I am from middle of amishtown PA and I love ward beverages & conversations.</p>
+									<p>I joined this work in the "spirit of questing". I set out on a journey toward a bigger goal & have found out things about myself in the process.  I am from middle of amishtown PA and I love warm beverages & conversations.</p>
 								</div>
 							</div>	
 						</li>	
