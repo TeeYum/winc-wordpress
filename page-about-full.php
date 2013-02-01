@@ -372,34 +372,6 @@ Template Name: About Page Template
 						</li>
 					</ul>
 					
-					<ul class="thumbnails">
-						<li class="span3">
-						<div class="thumbnail">
-							<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/nick-sikoutris.png" alt="Nick Sikoutris" />
-									<h3 class="about-name">Nick Sikoutris</h3>
-									<p class="about-title">Office Intern</p>
-								</div>
-								<div class="back">
-									<h3 class="about-name">Nick Sikoutris</h3>
-									<p>I am a Junior studying Public Relations and Minoring in Sociology.  I've never broken a bone and in my free time I like to Scuba dive.</p>
-								</div>
-							</div>	
-						</li>
-						<li class="span3">
-							<div class="thumbnail">
-								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Justin-Sova.png" alt="Justin Sova" />
-									<h3 class="about-name">Justin Sova</h3>
-									<p class="about-title">IT Assistant</p>
-								</div>
-								<div class="back">
-									<h3 class="about-name">Justin Sova</h3>
-									<p>I live drums. I don’t know what to say, but you lost the game.</p>
-								</div>
-							</div>	
-						</li>
-					</ul>
 					<ul class="thumbnails">		
 
 						
