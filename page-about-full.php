@@ -315,9 +315,40 @@ Template Name: About Page Template
 								</div>
 							</div>	
 						</li>
+                       <li class="span3">
+						<div class="thumbnail">
+							<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/hamzeh-feddah.png" alt="Hamzeh Feddah" />
+									<h3 class="about-name">Hamzeh Feddah</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Hamzeh Feddah</h3>
+									<p>Will add this later.</p>
+								</div>
+						</li>
 						<li class="span3">
-							<div class="thumbnail">
-								<div class="front">
+						<div class="thumbnail">
+							<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/carl-jeanlouis.png" alt="Carl Jean-Louis" />
+									<h3 class="about-name">Carl Jean-Louis</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Carl Jean-Louis</h3>
+									<p>Will add this later.</p>
+								</div>
+						</li>
+
+
+					
+	
+					</ul>
+					
+					<ul class="thumbnails">
+						<li class="span3">
+						<div class="thumbnail">
+							<div class="front">
 									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/nick-sikoutris.png" alt="Nick Sikoutris" />
 									<h3 class="about-name">Nick Sikoutris</h3>
 									<p class="about-title">Office Intern</p>
@@ -341,12 +372,9 @@ Template Name: About Page Template
 								</div>
 							</div>	
 						</li>
-	
 					</ul>
-					
-					<ul class="thumbnails">
-					</ul>
-					<ul class="thumbnails">			
+					<ul class="thumbnails">		
+
 						
 						
 				</div> <!-- end #main -->
