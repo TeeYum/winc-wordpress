@@ -383,9 +383,6 @@ Template Name: About Page Template
 								</div>
 							</div>	
 						</li>
-					</ul>
-
-					<ul class="thumbnails">
 						<li class="span3">
 						<div class="thumbnail">
 							<div class="front">
@@ -399,6 +396,9 @@ Template Name: About Page Template
 								</div>
 							</div>	
 						</li>
+					</ul>
+
+					<ul class="thumbnails">
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
@@ -425,9 +425,6 @@ Template Name: About Page Template
 								</div>
 							</div>	
 						</li>
-					</ul>
-					
-					<ul class="thumbnails">
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
@@ -454,6 +451,9 @@ Template Name: About Page Template
 								</div>
 							</div>	
 						</li>
+					</ul>
+					
+					<ul class="thumbnails">
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
