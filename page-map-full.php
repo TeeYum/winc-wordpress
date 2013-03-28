@@ -17,7 +17,7 @@ Template Name: Map of Dialogues
 						<div id="india" class="map-dot"  data-content="Beginning stages of building a partnership with a university in Bombay to establish video dialogue program between Indian and Penn State students. Stay tuned." data-original-title="India"></div>
 						<div id="haiti" class="map-dot"  data-content="Through a service learning project (for their SOC 119 class), Penn State students have the opportunity to get involved with socioeconomic development by partnering with Haitians entrepreneurs who are pursuing dynamic humanitarian efforts in hospitals throughout Port-Au-Prince." data-original-title="Haiti"></div>
 						<div id="china" class="map-dot"  data-content="Video Dialogue with Students in China" data-original-title="China"></div>
-						<div id="pakistan" class="map-dot"  data-content="Video Dialogue with Students in China" data-original-title="Pakistan"></div>
+						<div id="pakistan" class="map-dot"  data-content="Video Dialogue with Students in Pakistan" data-original-title="Pakistan"></div>
 						<div id="kuwait" class="map-dot"  data-content="After training Kuwaiti facilitators, WinC staff co-facilitate dialogues between Penn State and Kuwaiti students from various universities who are affiliated with the AWARE Centre in Kuwait City. Topics of conversation often revolve around cultural similarities and differences, gender, religion and stereotypes." data-original-title="Kuwait"></div>
 					</div>				
 				</div>	
