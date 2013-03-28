@@ -51,3 +51,13 @@ $('#kuwait').hover(function(){
 }, function(){
 	$('#kuwait').popover('hide')
 });
+$('#china').hover(function(){
+	$('#china').popover('show')
+}, function(){
+	$('#china').popover('hide')
+});
+$('#pakistan').hover(function(){
+	$('#pakistan').popover('show')
+}, function(){
+	$('#pakistan').popover('hide')
+});
