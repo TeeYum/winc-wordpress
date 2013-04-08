@@ -9,9 +9,11 @@ this is a stupid change
     <meta charset="utf-8">
     <title>World In Conversation Project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
+    <meta name="description" content="To date, we have provided a physical space - at Penn State University - for people of different cultural and 
+        ancestral groups to meet and explore issues in small groups. We continue to do this in the real world, but now we are expanding into the virtual world.  Formally known as the Race Relations Project.">
+    <meta name="keywords" content="World in Conversation, Conversation, Dialog, Dialogue, Converse, Race Relations, A Tiny Act, Worldinconvo, Global Dialogue, Global, China, Israel, Haiti">
+    <meta name="author" content="World In Conversation">
+    
     <!-- Le styles -->
 	<link href="<?php echo get_template_directory_uri(); ?>/splashPage/assets/css/bootstrap.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/splashPage/assets/css/home.css" />	
