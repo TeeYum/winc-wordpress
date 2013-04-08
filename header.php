@@ -40,7 +40,10 @@
 
   		<link rel="stylesheet/less" type="text/css" href="<?php echo get_template_directory_uri(); ?>/less/bootstrap.less">
   		<link rel="stylesheet/less" type="text/css" href="<?php echo get_template_directory_uri(); ?>/less/responsive.less">
-
+        <meta name="description" content="To date, we have provided a physical space - at Penn State University - for people of different cultural and 
+        ancestral groups to meet and explore issues in small groups. We continue to do this in the real world, but now we are expanding into the virtual world.  Formally known as the Race Relations Project.">
+        <meta name="keywords" content="World in Conversation, Conversation, Dialog, Dialogue, Converse, Race Relations, A Tiny Act, Worldinconvo, Global Dialogue, Global, China, Israel, Haiti">
+        <meta name="author" content="World In Conversation">
 		<!-- wordpress head functions -->
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
