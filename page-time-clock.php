@@ -25,8 +25,9 @@ Template Name: Time Clock Page
 							echo '<img src="http://s11.postimage.org/qw70uxver/Perfect_World.jpg" alt="lol get a life" />';
 							echo '<p>SORRY, WHAT EXACTLY WERE YOU DOING? CLOCKING IN?</p>';
 						} else {
-							echo '<img src="http://www.withinwindows.com/files/uploads/2012/05/ming.png " alt="lol get a life" />';
-							echo '<p>DID YOU TYPE THE RIGHT URL? PROBABLY LOL</p>';
+							echo '<img src="http://s15.postimg.org/p37fl7ih7/Sandbox.png" alt="lol get a life" />';
+							echo '<p><h1>Sanboxes at the beach.</h1></p>';
+							echo '<p>Basically the same as trying to clock in when you're not at work.</p>'
 						}
 					}
 ?>						
