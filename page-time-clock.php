@@ -27,7 +27,7 @@ Template Name: Time Clock Page
 						} else {
 							echo '<img src="http://s15.postimg.org/p37fl7ih7/Sandbox.png" alt="lol get a life" />';
 							echo '<p><h1>Sanboxes at the beach.</h1></p>';
-							echo '<p>Basically the same as trying to clock in when you're not at work.</p>'
+							echo '<p>Basically the same as trying to clock in when you are not at work.</p>';
 						}
 					}
 ?>						
