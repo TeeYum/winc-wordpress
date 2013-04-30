@@ -22,18 +22,20 @@ Template Name: Map of Dialogues
 					</div>
 				</div>
 			</div>
-			<div id="info-container" class="span12 well dropShadow" style="margin-left:0px;margin-top:20px;">
-				<div class="span4">
-					<div id="map-title-box">
-						<h2>Global Video Dialogues</h2>
+			<div id="info-container" class="row-fluid">
+				<div class="span12 well dropShadow" style="margin-left:0px;margin-top:20px;">
+					<div class="span6">
+						<div id="map-title-box">
+							<h2>Global Video Dialogues</h2>
+						</div>
+						<div id="map-text-box">
+							<p>Given the advances in communication technology, people on every continent are able to make contact with their counterparts all over the world. We're taking that one step further by using our trained facilitators to host cross-cultural dialogues between people while they are living oceans apart.</p>
+							<p>Check out the video to get the back story of how we got into convening video dialogues--and why we think it has so much potential.</p>
+						</div>
 					</div>
-					<div id="map-text-box">
-						<p>Given the advances in communication technology, people on every continent are able to make contact with their counterparts all over the world. We're taking that one step further by using our trained facilitators to host cross-cultural dialogues between people while they are living oceans apart.</p>
-						<p>Check out the video to get the back story of how we got into convening video dialogues--and why we think it has so much potential.</p>
+					<div class="span6">
+						<iframe src="http://player.vimeo.com/video/47109199" width="400" height="261" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 					</div>
-				</div>
-				<div class="span4">
-					<iframe src="http://player.vimeo.com/video/47109199" width="400" height="261" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 				</div>
 			</div>	
 			
