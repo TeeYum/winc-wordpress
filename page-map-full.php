@@ -23,8 +23,11 @@ Template Name: Map of Dialogues
 				</div>
 			</div>
 			<div class="span6">
-				<div class="ftf-title-box">
+				<div class="map-title-box">
 					<h2>Video Dialogues</h2>
+				</div>
+				<div class="map-content-box">
+				Given the advances in communication technology, people on every continent are able to make contact with their counterparts all over the world. We're taking that one step further by using our trained facilitators to host cross-cultural dialogues between people while they are living oceans apart.
 				</div>
 			</div>
 				
