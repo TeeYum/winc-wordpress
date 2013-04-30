@@ -22,9 +22,11 @@ Template Name: Map of Dialogues
 					</div>
 				</div>
 			</div>
+			<div class="span6">
 				<div class="ftf-title-box">
-						<h1>Video Dialogues</h1>
+					<h2>Video Dialogues</h2>
 				</div>
+			</div>
 				
 			<!--	<div id="map-main" class="span12 well dropShadow" >
 				</div>--> <!-- end #main -->
