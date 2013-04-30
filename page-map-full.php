@@ -24,7 +24,7 @@ Template Name: Map of Dialogues
 			</div>
 			<div class="span6">
 				<div id="map-title-box">
-					<h2>Video Dialogues</h2>
+					<h2>Global Video Dialogues</h2>
 				</div>
 				<div id="map-text-box">
 					<p>Given the advances in communication technology, people on every continent are able to make contact with their counterparts all over the world. We're taking that one step further by using our trained facilitators to host cross-cultural dialogues between people while they are living oceans apart.</p>
@@ -32,7 +32,7 @@ Template Name: Map of Dialogues
 				</div>
 			</div>
 				
-			<!--	<div id="map-main" class="span12 well dropShadow" >
+			
 				</div>--> <!-- end #main -->
     
 				<?php //get_sidebar(); // sidebar 1 ?>
