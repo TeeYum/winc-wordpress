@@ -719,21 +719,21 @@ blockquote.pull-left{
 	height:30px;
 	background-position:bottom;
 }
-.map-title-box {
+#map-title-box {
 	height:55px;
 	width:453px;
 	background:#2E9AFE;
 	border-bottom:4px solid #808080;
 }
 
-.map-title-box h2{
+#map-title-box h2{
 	color:white !important;
 	text-align:center;
 	padding-top:9px;
 	font-weight:300;
 }
 
-.map-content-box {
+#map-text-box {
 	width:413px;
 	margin-left:20px;
 	margin-top:15px;
