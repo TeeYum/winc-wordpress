@@ -32,6 +32,9 @@ Template Name: Map of Dialogues
 						<p>Check out the video to get the back story of how we got into convening video dialogues--and why we think it has so much potential.</p>
 					</div>
 				</div>
+				<div class="span6">
+					<iframe src="http://player.vimeo.com/video/47109199" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				</div>
 			</div>	
 			
 			</div> <!-- end #main -->
