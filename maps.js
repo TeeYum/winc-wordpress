@@ -22,10 +22,10 @@ $('#saudi').hover(function(){
 	$('#saudi').popover('hide')
 });
 
-$('#tehran').hover(function(){
-	$('#tehran').popover('show')
+$('#iran').hover(function(){
+	$('#iran').popover('show')
 }, function(){
-	$('#tehran').popover('hide')
+	$('#iran').popover('hide')
 });
 
 $('#india').hover(function(){
