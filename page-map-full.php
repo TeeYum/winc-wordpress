@@ -26,6 +26,8 @@ Template Name: Map of Dialogues
 				<div class="ftf-title-box">
 					<h2>Video Dialogues</h2>
 				</div>
+				<div class="ftf-content-box">
+				</div>
 			</div>
 				
 			<!--	<div id="map-main" class="span12 well dropShadow" >
