@@ -19,7 +19,10 @@ Template Name: Map of Dialogues
 						<div id="china" class="map-dot"  data-content="We have connected with several universities across China to engage in radical open cultural dialogues where complex issues can be critically examined.  Environmental issues, family structures, meaning of success, values, democracy and communism are topics frequently discussed." data-original-title="China"></div>
 						<div id="pakistan" class="map-dot"  data-content="We have partnered with Government Ata Shad Degree College in Turbat.  With the help of an Urdu translator, we have discussed education, culture, and the influence of American media." data-original-title="Pakistan"></div>
 						<div id="kuwait" class="map-dot"  data-content="After training Kuwaiti facilitators, WinC staff co-facilitate dialogues between Penn State and Kuwaiti students from various universities who are affiliated with the AWARE Centre in Kuwait City. Topics of conversation often revolve around cultural similarities and differences, gender, religion and stereotypes." data-original-title="Kuwait"></div>
-					</div>				
+					</div>
+					<div class="ftf-title-box">
+						<h1>Video Dialogues</h1>
+					</div>
 				</div>	
 				
 			<!--	<div id="map-main" class="span12 well dropShadow" >
