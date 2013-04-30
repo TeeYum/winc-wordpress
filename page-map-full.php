@@ -23,7 +23,7 @@ Template Name: Map of Dialogues
 				</div>
 			</div>
 			<div id="info-container" class="row-fluid">
-				<div class="span12 well dropShadow" style="margin-left:0px;margin-top:20px;">
+				<div class="span12 well dropShadow" style="margin-left:0px;margin-top:10px;">
 					<div class="span6">
 						<div id="map-title-box">
 							<h2>Global Video Dialogues</h2>
