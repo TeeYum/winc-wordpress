@@ -707,6 +707,10 @@ blockquote.pull-left{
 	height:409px;
 	margin:0 auto;
 }
+#info-container {
+	width:838px;
+	margin:0 auto;
+}
 .map-dot {
 	background:url("images/dots.png") no-repeat;
 	width:30px;
