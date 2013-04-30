@@ -33,7 +33,7 @@ Template Name: Map of Dialogues
 					</div>
 				</div>
 				<div class="span6">
-					<iframe src="http://player.vimeo.com/video/47109199" width="450" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+					<iframe src="http://player.vimeo.com/video/47109199" width="400" height="261" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 				</div>
 			</div>	
 			
