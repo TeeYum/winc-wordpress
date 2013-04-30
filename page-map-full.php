@@ -21,6 +21,7 @@ Template Name: Map of Dialogues
 						<div id="kuwait" class="map-dot"  data-content="After training Kuwaiti facilitators, WinC staff co-facilitate dialogues between Penn State and Kuwaiti students from various universities who are affiliated with the AWARE Centre in Kuwait City. Topics of conversation often revolve around cultural similarities and differences, gender, religion and stereotypes." data-original-title="Kuwait"></div>
 					</div>
 				</div>
+			</div>
 				<div class="ftf-title-box">
 						<h1>Video Dialogues</h1>
 				</div>
