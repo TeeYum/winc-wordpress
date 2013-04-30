@@ -27,7 +27,8 @@ Template Name: Map of Dialogues
 					<h2>Video Dialogues</h2>
 				</div>
 				<div id="map-text-box">
-				Given the advances in communication technology, people on every continent are able to make contact with their counterparts all over the world. We're taking that one step further by using our trained facilitators to host cross-cultural dialogues between people while they are living oceans apart.
+					<p>Given the advances in communication technology, people on every continent are able to make contact with their counterparts all over the world. We're taking that one step further by using our trained facilitators to host cross-cultural dialogues between people while they are living oceans apart.</p>
+					<p>Check out the video to get the back story of how we got into convening video dialogues--and why we think it has so much potential.</p>
 				</div>
 			</div>
 				
