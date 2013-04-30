@@ -694,17 +694,7 @@ blockquote.pull-left{
 
 
 /* Map Page Styles */
-.map-title-box {
-	height:55px;
-	width:453px;
-	background:#2E9AFE;
-	border-bottom:4px solid #808080;
-}
-#.map-content-box {
-	width:413px;
-	margin-left:20px;
-	margin-top:15px;
-}
+
 #map-hero {
 	
 }
@@ -728,6 +718,25 @@ blockquote.pull-left{
 	width:30px;
 	height:30px;
 	background-position:bottom;
+}
+.map-title-box {
+	height:55px;
+	width:453px;
+	background:#2E9AFE;
+	border-bottom:4px solid #808080;
+}
+
+.map-title-box h2{
+	color:white !important;
+	text-align:center;
+	padding-top:9px;
+	font-weight:300;
+}
+
+.map-content-box {
+	width:413px;
+	margin-left:20px;
+	margin-top:15px;
 }
 #state-college {
 	position:relative;
