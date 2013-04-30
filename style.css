@@ -694,6 +694,17 @@ blockquote.pull-left{
 
 
 /* Map Page Styles */
+#map-title-box {
+	height:55px;
+	width:453px;
+	background:#2E9AFE;
+	border-bottom:4px solid #808080;
+}
+#map-content-box {
+	width:413px;
+	margin-left:20px;
+	margin-top:15px;
+}
 #map-hero {
 	
 }
