@@ -221,7 +221,7 @@ Template Name: About Page Template
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/chad-littlefield.png" alt="Chad Littlefield" />
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Chad-Littlefield.png" alt="Chad Littlefield" />
 									<h3 class="about-name">Chad Littlefield</h3>
 									<p class="about-title">Facilitator</p>
 								</div>
