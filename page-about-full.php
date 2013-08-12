@@ -139,13 +139,13 @@ Template Name: About Page Template
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Chad-Littlefield.png" alt="Chad Littlefield" />
-									<h3 class="about-name">Chad Littlefield</h3>
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Alyssa-Weinstein.jpg" alt="Alyssa Weinstein" />
+									<h3 class="about-name">Alyssa Weinstein</h3>
 									<p class="about-title">International Dialogue Coordinator</p>
 								</div>
 								<div class="back">
-									<h3 class="about-name">Chad Littlefield</h3>
-									<p>Connecting people through conversation is what I enjoy doing Monday through Sunday. #poop</p>
+									<h3 class="about-name">Alyssa Weinstein</h3>
+									<p>When I began to learn about Iran apart from media influence, I knew I needed to travel there. As a white woman who is also Jewish, this sparked my interest in inspiring others to see people for who they are and not what they are or from where they come. I achieve that through the scheduling of our international dialogues and establishing contacts around the world for WinC.</p>
 								</div>
 							</div>	
 						</li>	
@@ -221,13 +221,13 @@ Template Name: About Page Template
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Susie-Sharaf.png" alt="Susie Sharaf" />
-									<h3 class="about-name">Susie Sharaf</h3>
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/chad-littlefield.png" alt="Chad Littlefield" />
+									<h3 class="about-name">Chad Littlefield</h3>
 									<p class="about-title">Facilitator</p>
 								</div>
 								<div class="back">
-									<h3 class="about-name">Susie Sharaf</h3>
-									<p>I should really submit my bio.</p>
+									<h3 class="about-name">Chad Littlefield</h3>
+									<p>Connecting people through conversation is what I enjoy doing Monday through Sunday. #poop</p>
 								</div>
 							</div>	
 						</li>	
