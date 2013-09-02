@@ -38,6 +38,16 @@ body {
 	left:854px;
 }
 
+#centerForDiplomacy{
+	background: url("../img/centerfordip.png") no-repeat;
+	height:45px;
+	width:457px;
+	z-index: 99;
+	position:relative;
+	top:0;
+	left:1000px;
+}
+
 #homeLinks{
 	margin-left:213px !important;	
 	display:none;
