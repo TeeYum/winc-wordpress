@@ -38,7 +38,7 @@ this is a stupid change
 				<div id="quotes"></div> 
 				<div id="world"></div>
 				<div id="inConversation"></div>
-				<div id="centerForDiplomacy"></div>
+				<!--div id="centerForDiplomacy"></div-->
 				<div id="homeLinks">
 					<p><a href="/about-us">What We Do</a></p>
 					<div class="dots"></div>	
