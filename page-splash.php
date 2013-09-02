@@ -7,7 +7,7 @@ this is a stupid change
 
 <html lang="en"><head>
     <meta charset="utf-8">
-    <title>World In Conversation Project</title>
+    <title>World In Conversation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="To date, we have provided a physical space - at Penn State University - for people of different cultural and 
         ancestral groups to meet and explore issues in small groups. We continue to do this in the real world, but now we are expanding into the virtual world.  Formally known as the Race Relations Project.">
