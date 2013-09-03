@@ -12,7 +12,7 @@ Template Name: Time Clock Page
 <?	
 					$ipaddress = $_SERVER['REMOTE_ADDR'];
 					$error = rand(0, 2);
-					if ($ipaddress == '128.118.17.253'){
+					if ($ipaddress == '128.118.134.73'){
 
 						echo "<iframe src='https://docs.google.com/spreadsheet/embeddedform?formkey=dGQxbHg1MmxiQW9KeHlJd1BHMjMyYkE6MQ' width='760' height='900' frameborder='0' marginheight='0' marginwidth='0'>Loading...</iframe>";	
 
