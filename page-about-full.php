@@ -152,7 +152,7 @@ Template Name: About Page Template
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Carley-Cubit.jpg" alt="Carly Cubit" />
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Carly-Cubit.jpg" alt="Carly Cubit" />
 									<h3 class="about-name">Carly Cubit</h3>
 									<p class="about-title">Facilitator/Dialogue Assistant</p>
 								</div>
