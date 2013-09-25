@@ -152,9 +152,9 @@ Template Name: About Page Template
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Carley-Cubit.png" alt="Carly Cubit" />
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Carley-Cubit.jpg" alt="Carly Cubit" />
 									<h3 class="about-name">Carly Cubit</h3>
-									<p class="about-title">Facilitator</p>
+									<p class="about-title">Facilitator/Dialogue Assistant</p>
 								</div>
 								<div class="back">
 									<h3 class="about-name">Carly Cubit</h3>
@@ -464,6 +464,20 @@ Template Name: About Page Template
 								<div class="back">
 									<h3 class="about-name">Justin Sova</h3>
 									<p>I live drums. I don’t know what to say, but you lost the game.</p>
+								</div>
+							</div>	
+						</li>
+						
+						<li class="span3">
+							<div class="thumbnail">
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Peggy-Opalka.jpg" alt="Peggy Opalka" />
+									<h3 class="about-name">Peggy Opalka</h3>
+									<p class="about-title">Office Intern</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Peggy Opalka</h3>
+									<p></p>
 								</div>
 							</div>	
 						</li>
