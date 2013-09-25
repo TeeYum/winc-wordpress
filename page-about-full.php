@@ -195,39 +195,39 @@ Template Name: About Page Template
 						<li class="span3">
 							<div class="thumbnail">
 								<div class"front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Matt-Houser.png" alt="Matt Houser" />
-									<h3 class="about-name">Matt Houser</h3>
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Daba-Kora.jpg" alt="Daba Kora" />
+									<h3 class="about-name">Daba Kora</h3>
 									<p class="about-title">Facilitator</p>
 								</div>
 								<div class="back">
-									<h3 class="about-name">Matt Houser</h3>
-									<p>I was born on a small farm in Centre County 21 years ago. I grew up learning to love my time outside and now find my happiness in the outdoors. I now also enjoy my studies in school which focus on how people relate to one another through farming and food. </p>
+									<h3 class="about-name">Daba Kora</h3>
+									<p>Living, loving, and laughing. Enjoy the opportunity to meet new people, while steering into curbs of life. </p>
 								</div>
 							</div>	
 						</li>	
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Nadder-Sholy.png" alt="Nader Sholy" />
-									<h3 class="about-name">Nader Sholy</h3>
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/McKenzi-Doolittle.jpg" alt="McKenzi Doolittle" />
+									<h3 class="about-name">McKenzi Doolittle</h3>
 									<p class="about-title">Facilitator</p>
 								</div>
 								<div class="back">
-									<h3 class="about-name">Nader Sholy</h3>
-									<p>Palestinian Lebanese, Born in Cali. Family lives in Qatar, lived here 18 years. Until I came to Penn State my Big Brother worked for WinC, told me about Soc 119 freshman year & now I work at the project. (Tim only gave me three minutes to write this)</p>
+									<h3 class="about-name">McKenzi Doolittle</h3>
+									<p>I take pride in being real with everyone I come in contact with. I'm all about trust and kindness. I love pugs.</p>
 								</div>
 							</div>	
 						</li>	
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Chad-Littlefield.png" alt="Chad Littlefield" />
-									<h3 class="about-name">Chad Littlefield</h3>
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Alexa-Martin.jpg" alt="Alexa Martin" />
+									<h3 class="about-name">Alexa St. Martin</h3>
 									<p class="about-title">Facilitator</p>
 								</div>
 								<div class="back">
-									<h3 class="about-name">Chad Littlefield</h3>
-									<p>Connecting people through conversation is what I enjoy doing Monday through Sunday. #poop</p>
+									<h3 class="about-name">Alexa St. Martin</h3>
+									<p>I am perfectly balanced and attuned to cosmos. Peace is flowing gently throughout my total being. I am safe, protected, and secure. And so are you.</p>
 								</div>
 							</div>	
 						</li>	
@@ -250,13 +250,13 @@ Template Name: About Page Template
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/brigitte-dabbas.png" alt="Brigitte Dabbas" />
-									<h3 class="about-name">Brigitte Dabbas</h3>
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Alex-Mobilia.jpg" alt="Alex Mobilia" />
+									<h3 class="about-name">Alex Mobilia</h3>
 									<p class="about-title">Facilitator</p>
 								</div>
 								<div class="back">
-									<h3 class="about-name">Brigitte Dabbas</h3>
-									<p>I enjoy relaxing, fly fishing, laughing, and having a good time. I would like to experience everything possible while on earth including eating insects. My absolute favorite tv shows are pretty little liars and private practice. Yogurt granola defines who I am.</p>
+									<h3 class="about-name">Alex Mobilia</h3>
+									<p>I love discussing controversial social topics that are difficult to talk about, as well as gaining new perspective on these issues. Not to mention I am pretty awesome:)</p>
 								</div>
 							</div>	
 						</li>	
@@ -318,26 +318,26 @@ Template Name: About Page Template
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="target">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/nicollette-airhart.png" alt="Nicollette Airhart" />
-									<h3 class="about-name">Nicollette Airhart</h3>
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Lexie-Walsh.jpg" alt="Lexie Walsh" />
+									<h3 class="about-name">Lexie Walsh</h3>
 									<p class="about-title">Facilitator</p>
 								</div>
 								<div class="back">
-									<h3 class="about-name">Nicolette Airhart</h3>
-									<p>Born and raised in Massillan, Ohio. I'm a crime, law & justice major and this is my third semester at winc. I love cheese :)</p>
+									<h3 class="about-name">Lexie Walsh</h3>
+									<p>Harry Potter fan and lover of dogs. Very appreciative of the many thoughts and ideas.</p>
 								</div>
 							</div>	
 						</li>
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="target">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/hamzeh-feddah.png" alt="Hamzeh Feddah" />
-									<h3 class="about-name">Hamzeh Feddah</h3>
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Nicole-Walsh.jpg" alt="Nicole Walsh" />
+									<h3 class="about-name">Nicole Walsh</h3>
 									<p class="about-title">Facilitator</p>
 								</div>
 								<div class="back">
-									<h3 class="about-name">Hamzeh Feddah</h3>
-									<p>My name is Hamzeh. I'm originally from Amman, Jordan. I moved to the states after graduating from high school to gain a greater base of knowledge and different people in life.</p>
+									<h3 class="about-name">Nicole Walsh</h3>
+									<p>Wilderness explorer, activist, curious cat and eternal optimist. I'm from Wilmington,DE, and I couldn't be more excited to go on this WinC journey.</p>
 								</div>
 							</div>	
 						</li>
@@ -373,26 +373,26 @@ Template Name: About Page Template
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/annie-tamalavage.png" alt="Annie Tamalavage" />
-									<h3 class="about-name">Annie Tamalavage</h3>
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Carissa-Gaither.jpg" alt="Carissa Gaither" />
+									<h3 class="about-name">Carissa Gaither</h3>
 									<p class="about-title">Facilitator</p>
 								</div>
 								<div class="back">
-									<h3 class="about-name">Annie Tamalavage</h3>
-									<p>Pottsville, PA. Favorite Food: Guacamole.  Just started at WinC. I'm super spunky</p>
+									<h3 class="about-name">Carissa Gaither</h3>
+									<p>Brodcast journalism major, soc and business minor. Lover of thoughts. The next Oprah.</p>
 								</div>
 							</div>	
 						</li>
 						<li class="span3">
 						<div class="thumbnail">
 							<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/madyson-nucci.png" alt="Madyson Nucci" />
-									<h3 class="about-name">Madyson Nucci</h3>
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Brandon-Munroe.jpg" alt="Brandon Munroe" />
+									<h3 class="about-name">Brandon Munroe</h3>
 									<p class="about-title">Facilitator</p>
 								</div>
 								<div class="back">
-									<h3 class="about-name">Madyson Nucci</h3>
-									<p>From Long Branch, NJ. Could live off of sushi. Love all (good) music and the beach. Want to eventually move to Israel</p>
+									<h3 class="about-name">Brandon Munroe</h3>
+									<p>Jack of all trades, master of the Arts. Coolest and most fierce facilitator to live.</p>
 								</div>
 							</div>	
 						</li>
@@ -454,6 +454,37 @@ Template Name: About Page Template
 					</ul>
 					
 					<ul class="thumbnails">
+					
+				           	<li class="span3">
+							<div class="thumbnail">
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Stephen-Hill.jpg" alt="Stephen Hill" />
+									<h3 class="about-name">Stephen Hill</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Stephen Hill</h3>
+									<p>Instead of fighting it we should all just go with the flow.</p>
+								</div>
+							</div>	
+						</li>
+						
+						<li class="span3">
+							<div class="thumbnail">
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Rafaif-Hamdan.jpg" alt="Rafaif Hamdan" />
+									<h3 class="about-name">Rafaif Hamdan</h3>
+									<p class="about-title">Facilitator</p>
+								</div>
+								<div class="back">
+									<h3 class="about-name">Rafaif Hamdan</h3>
+									<p>I'm a soc major, I love meeting new people, I enjoy breaking cultural norms. Feed me and I will love you!</p>
+								</div>
+							</div>	
+						</li>
+					
+					
+					
 						<li class="span3">
 							<div class="thumbnail">
 								<div class="front">
