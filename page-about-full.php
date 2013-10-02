@@ -384,18 +384,18 @@ Template Name: About Page Template
 							</div>	
 						</li>
 						<li class="span3">
-						<div class="thumbnail">
-							<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Brandon-Munroe.jpg" alt="Brandon Munroe" />
-									<h3 class="about-name">Brandon Munroe</h3>
+							<div class="thumbnail">
+								<div class="front">
+									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Rafaif-Hamdan.jpg" alt="Rafaif Hamdan" />
+									<h3 class="about-name">Rafaif Hamdan</h3>
 									<p class="about-title">Facilitator</p>
 								</div>
 								<div class="back">
-									<h3 class="about-name">Brandon Munroe</h3>
-									<p>Jack of all trades, master of the Arts. Coolest and most fierce facilitator to live.</p>
+									<h3 class="about-name">Rafaif Hamdan</h3>
+									<p>I'm a soc major, I love meeting new people, I enjoy breaking cultural norms. Feed me and I will love you!</p>
 								</div>
 							</div>	
-						</li>
+						</li>>
 					</ul>
 
 					<ul class="thumbnails">
@@ -468,22 +468,6 @@ Template Name: About Page Template
 								</div>
 							</div>	
 						</li>
-						
-						<li class="span3">
-							<div class="thumbnail">
-								<div class="front">
-									<img src="<?php bloginfo('template_directory'); ?>/images/headshots/Rafaif-Hamdan.jpg" alt="Rafaif Hamdan" />
-									<h3 class="about-name">Rafaif Hamdan</h3>
-									<p class="about-title">Facilitator</p>
-								</div>
-								<div class="back">
-									<h3 class="about-name">Rafaif Hamdan</h3>
-									<p>I'm a soc major, I love meeting new people, I enjoy breaking cultural norms. Feed me and I will love you!</p>
-								</div>
-							</div>	
-						</li>
-					
-					
 					
 						<li class="span3">
 							<div class="thumbnail">
