@@ -33,7 +33,7 @@ Template Name: Face to Face
 					<div class="row" style="margin-left:0px;margin-top:20px;">
 						<div class="span6">
 							<div class="ftf-title-box">
-								<h2>West Meets Middle East</h2>
+								<h2>West-Middle East Exchange</h2>
 							</div>
 							<div class="ftf-content-box">	
 								<p>The West Meets Middle East initiative puts Middle Eastern students and students born and raised in the western world in a room together. In facilitating conversation between these two groups, we have the simple aim of exchanging viewpoints, discussing misconceptions, and sharing cultural differences. The result, frequently, is a heightened understanding of both cultures.</p>
