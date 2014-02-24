@@ -9,6 +9,10 @@ $(function() {
 						})
 					})
 				})
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of a46bd35... comment out js
 			})
 		})
 	})
