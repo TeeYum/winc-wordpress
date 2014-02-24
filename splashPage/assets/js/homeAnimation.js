@@ -1,7 +1,7 @@
 $(function() {
 	$("#quotes").fadeIn(1250, function() {
 		$("#world").animate({"left": "200px"}, 500, "linear", function() {
-			$("#inConversation").animate({"left": "354px"}, 500, "linear", function() {
+			//$("#inConversation").animate({"left": "354px"}, 500, "linear", function() {
 				$("#centerForDiplomacy").animate({"left": "400px"}, 500, "linear", function() {
 					$("#homeLinks").show(function() {
 						$("#homeLinks").animate({"margin-top": "0px"}, 300, "linear", function() {
@@ -9,11 +9,7 @@ $(function() {
 						})
 					})
 				})
-<<<<<<< HEAD
-=======
-
->>>>>>> parent of a46bd35... comment out js
-			})
+			//})
 		})
 	})
 });
