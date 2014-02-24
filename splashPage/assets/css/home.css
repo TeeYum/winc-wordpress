@@ -27,7 +27,6 @@ body {
 	position:relative;
 	top:49px;
 	left:-200px;
-	overflow: visible !important; 
 }
 #inConversation{
 	background: url("../img/inconversation.png") no-repeat;
@@ -37,7 +36,6 @@ body {
 	position:relative;
 	top:0;
 	left:854px;
-	overflow: visible !important; 
 }
 
 #centerForDiplomacy{
@@ -48,7 +46,6 @@ body {
 	position:relative;
 	top:0;
 	left:1000px;
-	overflow: visible !important; 
 }
 
 #homeLinks{
