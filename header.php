@@ -133,6 +133,7 @@
   				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   				ga('create', 'UA-29115203-2', 'worldinconversation.org');
+  				ga('require', 'displayfeatures');
   				ga('send', 'pageview');
 			</script>	
 			
