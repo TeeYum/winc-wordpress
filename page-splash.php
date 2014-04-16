@@ -30,6 +30,19 @@ this is a stupid change
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+	
+	<!--Google Analytics -->		
+		<script>
+  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  			ga('create', 'UA-29115203-2', 'worldinconversation.org');
+  			ga('require', 'displayfeatures');
+  			ga('send', 'pageview');
+
+		</script>
 	</head>
 
 	<body>
@@ -59,18 +72,6 @@ this is a stupid change
 		<script src="<?php echo get_template_directory_uri(); ?>/splashPage/assets/js/jquery.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/splashPage/assets/js/homeAnimation.js"></script>
   		
-		<!--Google Analytics -->		
-		<script>
-  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  			ga('create', 'UA-29115203-2', 'worldinconversation.org');
-  			ga('require', 'displayfeatures');
-  			ga('send', 'pageview');
-
-		</script>
 	</body>
 </html>
 
