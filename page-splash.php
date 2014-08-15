@@ -7,6 +7,7 @@ this is a stupid change
 
 <html lang="en"><head>
     <meta charset="utf-8">
+    <meta name="google-site-verification" content="aKXuo-kb8SWo-lNwrHjlg3l-vpRuDNzyxfoV-aw3SLs" />
     <title>World In Conversation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="To date, we have provided a physical space - at Penn State University - for people of different cultural and 
